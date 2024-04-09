@@ -33,10 +33,10 @@ class RorPlugin extends GenericPlugin
                 $rorForm = new RorForm();
                 $rorWorkflow = new RorWorkflow($this);
                 $rorArticleView = new RorArticleView($this);
-                Hook::add('Schema::get::author', [$rorSchema, 'addToSchemaAuthor']);
-                Hook::add('Form::config::before', [$rorForm, 'addFormFields']);
+                Hook::add('Schema::get::author', [$rorSchema, 'addToAuthor']);
+                Hook::add('Form::config::before', [$rorForm, 'addFields']);
                 Hook::add('Template::Workflow::Publication', [$rorWorkflow, 'execute']);
-                Hook::add('ArticleHandler::view', [$rorArticleView, 'submissionView']);
+                Hook::add('ArticleHandler::view', [$rorArticleView, 'execute']);
             }
 
             return true;
