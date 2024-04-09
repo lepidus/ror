@@ -23,7 +23,7 @@ class RorWorkflow
     /** @param RorPlugin $plugin */
     public function __construct(RorPlugin &$plugin)
     {
-        $this->plugin = $plugin;
+        $this->plugin = &$plugin;
     }
 
     /**
