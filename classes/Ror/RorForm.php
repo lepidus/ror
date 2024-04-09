@@ -32,8 +32,8 @@ class RorForm
 
         $form->removeField(RorConstants::$idName);
         $form->addField(new FieldText(RorConstants::$idName, [
-            'label' => __('plugins.generic.pidManager.ror.rorId'),
-            'tooltip' => __('plugins.generic.pidManager.ror.description'),
+            'label' => __('plugins.generic.ror.rorId'),
+            'tooltip' => __('plugins.generic.ror.description'),
             'groupId' => 'affiliation',
         ]), [FIELD_POSITION_AFTER, 'affiliation']);
 
