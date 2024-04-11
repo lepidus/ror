@@ -13,15 +13,12 @@
 
 namespace APP\plugins\generic\ror;
 
-use APP\core\Application;
 use APP\plugins\generic\ror\classes\Ror\RorArticleView;
 use APP\plugins\generic\ror\classes\Ror\RorForm;
 use APP\plugins\generic\ror\classes\Ror\RorSchema;
 use APP\plugins\generic\ror\classes\Ror\RorWorkflow;
-use APP\template\TemplateManager;
 use PKP\plugins\GenericPlugin;
 use PKP\plugins\Hook;
-use PKP\template\PKPTemplateManager;
 
 class RorPlugin extends GenericPlugin
 {
@@ -38,7 +35,7 @@ class RorPlugin extends GenericPlugin
                 $rorArticleView = new RorArticleView($this);
                 Hook::add('Schema::get::author', [$rorSchema, 'addToAuthor']);
                 Hook::add('Form::config::before', [$rorForm, 'addFields']);
-                Hook::add('TemplateManager::display', [$rorWorkflow, 'execute']);
+                Hook::add('Template::Workflow::Publication', [$rorWorkflow, 'execute']);
                 Hook::add('ArticleHandler::view', [$rorArticleView, 'execute']);
             }
 
@@ -46,71 +43,6 @@ class RorPlugin extends GenericPlugin
         }
 
         return false;
-    }
-
-    public function loadUrnFieldComponent(string $hookName, array $args): void
-    {
-        $templateMgr = $args[0];
-        $template = $args[1];
-
-        if ($template !== 'workflow/workflow.tpl') {
-            return;
-        }
-            $templateMgr->addJavaScript(
-                'field-text-lookup',
-                Application::get()->getRequest()->getBaseUrl() . '/' . $this->getPluginPath() . '/assets/js/scriptRor.js',
-                [
-                    'contexts' => 'backend',
-                    'priority' => TemplateManager::STYLE_SEQUENCE_LAST,
-                ]
-            );
-
-            $templateMgr->addStyleSheet(
-                'field-text-lookup',
-                '
-                    .pkpFormField--urn__input {
-                        display: inline-block;
-                    }
-
-                    .pkpFormField--urn__button {
-                        margin-left: 0.25rem;
-                        height: 2.5rem; // Match input height
-                    }
-                ',
-                [
-                    'contexts' => 'backend',
-                    'inline' => true,
-                    'priority' => TemplateManager::STYLE_SEQUENCE_LAST,
-                ]
-            );
-    }
-
-
-
-    function addJavascript($request, $templateMgr)
-    {
-        $templateMgr->addJavaScript(
-            'FieldTextLookup1234',
-            Application::get()->getRequest()->getBaseUrl() . '/' . $this->getPluginPath() . '/assets/js/script.js',
-            [
-                'contexts' => ['backend'],
-                'priority' => PKPTemplateManager::STYLE_SEQUENCE_LAST,
-            ]
-        );
-
-        $templateMgr->addStyleSheet(
-            'field-text-urn-component',
-            '
-                    .pkpFormField--urn__input {
-                        display: inline-block;
-                    }
-                ',
-            [
-                'contexts' => 'backend',
-                'inline' => true,
-                'priority' => PKPTemplateManager::STYLE_SEQUENCE_LAST,
-            ]
-        );
     }
 
     /** @copydoc Plugin::getDisplayName() */

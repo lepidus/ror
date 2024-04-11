@@ -15,7 +15,6 @@ namespace APP\plugins\generic\ror\classes\Ror;
 use APP\core\Application;
 use APP\plugins\generic\ror\RorPlugin;
 use APP\template\TemplateManager;
-use Exception;
 
 class RorWorkflow
 {
@@ -29,37 +28,23 @@ class RorWorkflow
     }
 
     /**
-     * Show tab under Publications
+     * Lookup functionality on Contributor > Edit
      *
      * @param string $hookName
      * @param array $args [string, TemplateManager]
      * @return void
-     * @throws Exception
      */
-    public function execute(string $hookName, array $args): void
+    public function execute(string $hookName, array &$args): void
     {
         /* @var TemplateManager $templateMgr */
-        $templateMgr = $args[0];
-        $template = $args[1];
+        $templateMgr = &$args[1];
+        $request = Application::get()->getRequest();
 
-        if ($template !== 'workflow/workflow.tpl') return;
+        $templateParameters = [
+            'assetsUrl' => $request->getBaseUrl() . '/' . $this->plugin->getPluginPath() . '/assets'
+        ];
+        $templateMgr->assign($templateParameters);
 
-        $templateMgr->addJavaScript(
-            'field-text-lookup',
-            Application::get()->getRequest()->getBaseUrl() . '/' . $this->plugin->getPluginPath() . '/' . RorConstants::$scriptPath,
-            [
-                'contexts' => 'backend',
-                'priority' => TemplateManager::STYLE_SEQUENCE_LAST,
-            ]
-        );
-
-        $templateMgr->addStyleSheet(
-            'field-text-lookup',
-            Application::get()->getRequest()->getBaseUrl() . '/' . $this->plugin->getPluginPath() . '/' . RorConstants::$stylePath,
-            [
-                'contexts' => 'backend',
-                'priority' => TemplateManager::STYLE_SEQUENCE_LAST,
-            ]
-        );
+        $templateMgr->display($this->plugin->getTemplateResource("ror.tpl"));
     }
 }

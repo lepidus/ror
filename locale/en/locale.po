@@ -24,7 +24,7 @@ msgid "plugins.generic.ror.input.tooltip"
 msgstr "ROR is a global, community-led registry of open persistent identifiers for research organizations. Learn more at <a href=\"https://ror.org\">ror.org</a>."
 
 msgid "plugins.generic.ror.input.lookup.label"
-msgstr "Search on ror.org"
+msgstr "Search for Affiliation and ROR iD on ror.org"
 
 msgid "plugins.generic.ror.input.lookup.tooltip"
 msgstr "Please fill in the name of the organisation. Clicking on the organisation will overwrite the fields \"Affiliation\" and \"ROR iD\"."
