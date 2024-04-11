@@ -34,4 +34,16 @@ class RorConstants
      * @var string
      */
     public static string $iconPath = 'assets/images/ror-logo-icon.svg';
+
+    /**
+     * Path to the Ror stylesheet
+     * @var string
+     */
+    public static string $stylePath = 'assets/css/ror.css';
+
+    /**
+     * Path to the Ror javascript script
+     * @var string
+     */
+    public static string $scriptPath = 'assets/js/ror.js';
 }

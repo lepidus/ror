@@ -31,11 +31,18 @@ class RorForm
             return Hook::CONTINUE;
 
         $form->removeField(RorConstants::$idName);
+
         $form->addField(new FieldText(RorConstants::$idName, [
-            'label' => __('plugins.generic.ror.rorId'),
-            'tooltip' => __('plugins.generic.ror.description'),
+            'label' => __('plugins.generic.ror.input.label'),
+            'tooltip' => __('plugins.generic.ror.input.tooltip'),
             'groupId' => 'affiliation',
         ]), [FIELD_POSITION_AFTER, 'affiliation']);
+
+        $form->addField(new FieldTextLookup(RorConstants::$idName . '_Lookup', [
+            'label' => __('plugins.generic.ror.input.lookup.label'),
+            'tooltip' => __('plugins.generic.ror.input.lookup.tooltip'),
+            'groupId' => 'affiliation',
+        ]),[FIELD_POSITION_AFTER, RorConstants::$idName]);
 
         return Hook::CONTINUE;
     }

@@ -12,7 +12,9 @@
 
 namespace APP\plugins\generic\ror\classes\Ror;
 
+use APP\core\Application;
 use APP\plugins\generic\ror\RorPlugin;
+use APP\template\TemplateManager;
 use Exception;
 
 class RorWorkflow
@@ -36,6 +38,28 @@ class RorWorkflow
      */
     public function execute(string $hookName, array $args): void
     {
-        // do something useful
+        /* @var TemplateManager $templateMgr */
+        $templateMgr = $args[0];
+        $template = $args[1];
+
+        if ($template !== 'workflow/workflow.tpl') return;
+
+        $templateMgr->addJavaScript(
+            'field-text-lookup',
+            Application::get()->getRequest()->getBaseUrl() . '/' . $this->plugin->getPluginPath() . '/' . RorConstants::$scriptPath,
+            [
+                'contexts' => 'backend',
+                'priority' => TemplateManager::STYLE_SEQUENCE_LAST,
+            ]
+        );
+
+        $templateMgr->addStyleSheet(
+            'field-text-lookup',
+            Application::get()->getRequest()->getBaseUrl() . '/' . $this->plugin->getPluginPath() . '/' . RorConstants::$stylePath,
+            [
+                'contexts' => 'backend',
+                'priority' => TemplateManager::STYLE_SEQUENCE_LAST,
+            ]
+        );
     }
 }

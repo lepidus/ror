@@ -17,11 +17,14 @@ msgstr "Research Organization Registry (ROR)"
 msgid "plugins.generic.ror.description"
 msgstr "Allows managing author/reviewer affiliations using the <a href=\"https://ror.org\">ROR</a> identifiers."
 
-msgid "plugins.generic.ror.inputPlaceHolder"
-msgstr "Search ror.org"
+msgid "plugins.generic.ror.input.label"
+msgstr "ROR iD"
 
-msgid "plugins.generic.ror.rorId"
-msgstr "Affiliation ROR iD"
-
-msgid "plugins.generic.ror.description"
+msgid "plugins.generic.ror.input.tooltip"
 msgstr "ROR is a global, community-led registry of open persistent identifiers for research organizations. Learn more at <a href=\"https://ror.org\">ror.org</a>."
+
+msgid "plugins.generic.ror.input.lookup.label"
+msgstr "Search on ror.org"
+
+msgid "plugins.generic.ror.input.lookup.tooltip"
+msgstr "Please fill in the name of the organisation. Clicking on the organisation will overwrite the fields \"Affiliation\" and \"ROR iD\"."
