@@ -45,5 +45,5 @@ class RorConstants
      * Path to the Ror javascript script
      * @var string
      */
-    public static string $scriptPath = 'assets/js/ror.js';
+    public static string $templateContributor = 'rorContributor.tpl';
 }

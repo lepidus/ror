@@ -40,11 +40,10 @@ class RorWorkflow
         $templateMgr = &$args[1];
         $request = Application::get()->getRequest();
 
-        $templateParameters = [
-            'assetsUrl' => $request->getBaseUrl() . '/' . $this->plugin->getPluginPath() . '/assets'
-        ];
-        $templateMgr->assign($templateParameters);
+        $templateMgr->assign([
+            'stylePath' => $request->getBaseUrl() . '/' . $this->plugin->getPluginPath() . '/' . RorConstants::$stylePath
+        ]);
 
-        $templateMgr->display($this->plugin->getTemplateResource("ror.tpl"));
+        $templateMgr->display($this->plugin->getTemplateResource(RorConstants::$templateContributor));
     }
 }

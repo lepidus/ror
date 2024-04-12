@@ -1,3 +1,7 @@
-input#contributor-rorId_Lookup-control {
+.RorPlugin_rorId_Lookup_div input#contributor-rorId_Lookup-control {
     padding-left: 49px;
+}
+
+.RorPlugin_rorId_Lookup_div .pkpFormField__control {
+    display: inline-block;
 }

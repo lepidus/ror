@@ -20,6 +20,8 @@ use APP\plugins\generic\ror\classes\Ror\RorWorkflow;
 use PKP\plugins\GenericPlugin;
 use PKP\plugins\Hook;
 
+define('ROR_PLUGIN_NAME', basename(__FILE__, '.php'));
+
 class RorPlugin extends GenericPlugin
 {
     /** @copydoc Plugin::register */
