@@ -5,3 +5,25 @@
 .RorPlugin_rorId_Lookup_div .pkpFormField__control {
     display: inline-block;
 }
+
+.searchPhraseOrganizations {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    height: 100px;
+    overflow-y: scroll;
+}
+
+.searchPhraseOrganizations ul {
+    list-style-type: none;
+    padding: 5px;
+    margin: 0;
+}
+
+.searchPhraseOrganizations ul li {
+    padding: 5px;
+}
+
+.searchPhraseOrganizations ul li a {
+    display: block;
+    cursor: pointer;
+}
