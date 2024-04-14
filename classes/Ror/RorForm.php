@@ -30,8 +30,6 @@ class RorForm
         if (!$form instanceof ContributorForm)
             return Hook::CONTINUE;
 
-        $form->removeField(RorConstants::$idName);
-
         $form->addField(new FieldText(RorConstants::$idName, [
             'label' => __('plugins.generic.ror.input.label'),
             'tooltip' => __('plugins.generic.ror.input.tooltip'),
@@ -40,7 +38,7 @@ class RorForm
         $form->addField(new RorFieldTextLookup(RorConstants::$idName . '_Lookup', [
             'label' => __('plugins.generic.ror.input.lookup.label'),
             'tooltip' => __('plugins.generic.ror.input.lookup.tooltip'),
-        ]),[FIELD_POSITION_AFTER, RorConstants::$idName]);
+        ]), [FIELD_POSITION_BEFORE, 'affiliation']);
 
         return Hook::CONTINUE;
     }

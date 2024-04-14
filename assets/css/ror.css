@@ -15,15 +15,48 @@
 
 .searchPhraseOrganizations ul {
     list-style-type: none;
-    padding: 5px;
+    padding: 0;
     margin: 0;
 }
 
 .searchPhraseOrganizations ul li {
-    padding: 5px;
+    padding: 0;
 }
 
 .searchPhraseOrganizations ul li a {
     display: block;
     cursor: pointer;
+    padding: 0.3rem;
+}
+
+.searchPhraseOrganizations ul li a:hover {
+    background-color: #f1f1f1;
+}
+
+.RorPlugin_rorId_Lookup_div {
+    padding: 0.5rem;
+    border-top: 1px solid #bbbbbb;
+    border-left: 1px solid #bbbbbb;
+    border-right: 1px solid #bbbbbb;
+    background-color: #f9f9f9;
+}
+
+.RorPlugin_rorId_Lookup_div + div.pkpFormGroup__localeGroup  {
+    margin-top: 0 !important;
+    padding: 0.5rem;
+    padding-top: 1.5rem;
+    border-left: 1px solid #bbbbbb;
+    border-right: 1px solid #bbbbbb;
+    background-color: #f9f9f9;
+
+}
+
+.RorPlugin_rorId_Lookup_div + div.pkpFormGroup__localeGroup + .pkpFormField.pkpFormField--text  {
+    margin-top: 0 !important;
+    padding: 0.5rem;
+    padding-top: 1.5rem;
+    border-bottom: 1px solid #bbbbbb;
+    border-left: 1px solid #bbbbbb;
+    border-right: 1px solid #bbbbbb;
+    background-color: #f9f9f9;
 }
