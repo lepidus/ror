@@ -16,42 +16,24 @@
 {$templateOpen}
 <div class="pkpFormField pkpFormField--text {ROR_PLUGIN_NAME}_rorId_Lookup_div" :class="classes">
     <div class="pkpFormField__heading">
-        <form-field-label :controlId="controlId"
-                          :label="label"
-                          :localeLabel="localeLabel"
-                          :isRequired="isRequired"
-                          :requiredLabel="__('common.required')"
-                          :multilingualLabel="multilingualLabel"
-        ></form-field-label>
-        <tooltip v-if="isPrimaryLocale && tooltip"
-                 aria-hidden="true"
-                 :tooltip="tooltip"
-                 label=""
-        ></tooltip>
+        <form-field-label :controlId="controlId" :label="label" :localeLabel="localeLabel"
+                          :isRequired="isRequired" :requiredLabel="__('common.required')"
+                          :multilingualLabel="multilingualLabel"></form-field-label>
+        <tooltip v-if="isPrimaryLocale && tooltip" aria-hidden="true" :tooltip="tooltip" label=""></tooltip>
     </div>
     <div class="pkpFormField__control" :class="controlClasses">
         <div class="pkpFormField__control_top">
             <label>
                 <span class='pkpSearch__icons'>
-                    <icon icon='search' class='pkpSearch__icons--search'/>
+                    <icon icon='search' class='pkpSearch__icons--search'></icon>
                 </span>
-                <input class="pkpFormField__input pkpFormField--text__input"
-                       ref="input"
-                       v-model="searchPhrase"
-                       :type="inputType"
-                       :id="controlId"
-                       :name="localizedName"
-                       :aria-describedby="describedByIds"
-                       :aria-invalid="errors && errors.length"
-                       :disabled="isDisabled"
-                       :required="isRequired"
-                       :style="inputStyles"
-                />
+                <input class="pkpFormField__input pkpFormField--text__input" ref="input" v-model="searchPhrase"
+                       :type="inputType" :id="controlId" :name="localizedName" :aria-describedby="describedByIds"
+                       :aria-invalid="errors && errors.length" :disabled="isDisabled" :required="isRequired"
+                       :style="inputStyles"/>
             </label>
-            <button class="pkpSearch__clear"
-                    v-if="searchPhrase"
-                    @click.prevent="clearSearchPhrase">
-                <icon icon="times"/>
+            <button class="pkpSearch__clear" v-if="searchPhrase" @click.prevent="clearSearchPhrase">
+                <icon icon="times"></icon>
             </button>
         </div>
     </div>
@@ -68,9 +50,9 @@
 <script>
     let rorPluginTemplateCompiled = pkp.Vue.compile(rorPluginTemplate);
 
-    pkp.Vue.component("ror-field-text-lookup", {
-        name: "RorFieldTextLookup",
-        extends: pkp.Vue.component("field-text"),
+    pkp.Vue.component('ror-field-text-lookup', {
+        name: 'RorFieldTextLookup',
+        extends: pkp.Vue.component('field-text'),
         data() {
             return {
                 organizations: [], // [ { id: id1, name: name1 }, ... ]
@@ -109,7 +91,7 @@
                         this.organizations = [];
                         let items = data.items;
                         items.forEach((item) => {
-                            let labels = { /**/};
+                            let labels = { /* */};
                             for (let i = 0; i < item.organization.labels.length; i++) {
                                 labels[item.organization.labels[i].iso639]
                                     = item.organization.labels[i].label
