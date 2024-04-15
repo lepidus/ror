@@ -1,9 +1,9 @@
 # Research Organization Registry (ROR) Plugin
 
 - [Research Organization Registry (ROR) Plugin](#research-organization-registry-ror-plugin)
-- [User Documentation](#user-documentation)
-- [Installation](#installation)
 - [Features](#features)
+- [Screenshot(s) / screen recording(s)](#screenshots--screen-recordings)
+- [Installation](#installation)
 - [Development](#development)
 - [Contribute](#contribute)
 - [License](#license)
@@ -19,9 +19,24 @@ ROR Plugin is shipped with the OJS Plugin gallery up from OJS 3.2. For Installat
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
 
-# User Documentation
+# Features
 
-* Adding the ROR organization name into your author affiliation. :movie_camera: [GIF Image](docs/ror-lookup-ojs-3-4-0.gif)
+* Allows auto-suggesting organization names
+* Pre-fills affiliations in multilingual context
+* Subsequent alteration of the ROR-suggested organization name is also possible by maintaining the ROR Plugin,
+  which can be helpful in special cases e.g. adding a institute name for a research organization.
+* OJS 3.3 compatibility
+* OpenAire / Datacite / Crossref Support
+* Support for user affiliations
+* Usability requests specially for dissemination plugins
+* Multilingual organization support
+* OJS 3.4 compatibility
+
+# Screenshot(s) / screen recording(s)
+
+### Adding the ROR organization name into your author affiliation.
+
+![ror-lookup-and-preview](docs/ror-lookup-ojs-3-4-0.gif)
 
 ## Installation
 
@@ -51,33 +66,11 @@ ROR Plugin is shipped with the OJS Plugin gallery up from OJS 3.2. For Installat
 </span>
 ```
 
-# Features
-
-### Release 1.0
-
-* Allows auto-suggesting organization names
-* Pre-fills affiliations in multilingual context
-* Subsequent alteration of the ROR-suggested organization name is also possible by maintaining the ROR Plugin, wich can be helpful in special cases e.g. adding a institute name for a research organization.
-* OJS 3.3 compatibility
-
-### Release 2.0
-
-* OpenAire / Datacite / Crossref Support
-* Support for user affiliations
-* Usability requests specially for dissemination plugins
-
-### Release 3.0
-
-* Multilingual organization support
-
-### Release 4.0
-
-* OJS 3.4 compatibility
-
 # Development
 
-* [Dulip Withanage](https://www.github.com/withanage)
-* [Gazi Yucel](https://www.github.com/GaziYucel)
+- Fork the repository
+- Make your changes
+- Open a PR with your changes
 
 # Contribute
 
