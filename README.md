@@ -1,6 +1,12 @@
-# Table of Contents
+# Research Organization Registry (ROR) Plugin
 
-## Research Organization Registry (ROR) Plugin
+- [Research Organization Registry (ROR) Plugin](#research-organization-registry-ror-plugin)
+- [User Documentation](#user-documentation)
+- [Installation](#installation)
+- [Features](#features)
+- [Development](#development)
+- [Contribute](#contribute)
+- [License](#license)
 
 OJS 3 Plugin for adding Organization names for author affiliations provided by [ROR.org](https://ror.org/)
 Organizations maintained by ROR.org are automatically fetched using an auto suggesting function.
@@ -10,9 +16,10 @@ If organization names are not present, the default name will be used.
 ROR ID is integrated in the OJS reader interface up from OJS 3.3.
 ROR Plugin is shipped with the OJS Plugin gallery up from OJS 3.2. For Installation of OJS 3.2 reader interface support see [installation](#Installation).
 
-Licensed under GPLv3. See [LICENSE](LICENSE) for details.
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
 
-## User Documentation
+# User Documentation
 
 * Adding the ROR organization name into your author affiliation. :movie_camera: [GIF Image](docs/ror-lookup-ojs-3-4-0.gif)
 
@@ -44,7 +51,7 @@ Licensed under GPLv3. See [LICENSE](LICENSE) for details.
 </span>
 ```
 
-## Features
+# Features
 
 ### Release 1.0
 
@@ -67,7 +74,19 @@ Licensed under GPLv3. See [LICENSE](LICENSE) for details.
 
 * OJS 3.4 compatibility
 
-## Development
+# Development
 
 * [Dulip Withanage](https://www.github.com/withanage)
 * [Gazi Yucel](https://www.github.com/GaziYucel)
+
+# Contribute
+
+All help is welcome: asking questions, providing documentation, testing, or even development.
+
+Please note that this project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md).
+By participating in this project you agree to abide by its terms.
+
+# License
+
+This project is published under GNU General Public License, Version 3.
+
