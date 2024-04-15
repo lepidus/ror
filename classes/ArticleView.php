@@ -42,11 +42,11 @@ class ArticleView
         $templateMgr = TemplateManager::getManager($request);
 
         $icon = '';
-        $iconPath = Core::getBaseDir() . '/' . $this->plugin->getPluginPath() . '/' . RorConstants::$iconPath;
+        $iconPath = Core::getBaseDir() . '/' . $this->plugin->getPluginPath() . '/' . Constants::$iconPath;
 
         if (file_exists($iconPath)) $icon = file_get_contents($iconPath);
 
-        $templateMgr->assign([RorConstants::$iconNameInTemplate => $icon]);
+        $templateMgr->assign([Constants::$iconNameInTemplate => $icon]);
 
         return false;
     }
