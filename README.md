@@ -5,6 +5,7 @@
 OJS 3 Plugin for adding Organization names for author affiliations provided by [ROR.org](https://ror.org/)
 Organizations maintained by ROR.org are automatically fetched using an auto suggesting function.
 For multilingual journals, additionally supported languages will be pre-filled given, [ROR.org](https://ror.org/) has the corresponding names in the OJS supported languages.
+If organization names are not present, the default name will be used.
 
 ROR ID is integrated in the OJS reader interface up from OJS 3.3.
 ROR Plugin is shipped with the OJS Plugin gallery up from OJS 3.2. For Installation of OJS 3.2 reader interface support see [installation](#Installation).
@@ -13,8 +14,7 @@ Licensed under GPLv3. See [LICENSE](LICENSE) for details.
 
 ## User Documentation
 
-* Adding the ROR organization name into your author affiliation. :movie_camera: [GIF Image](docu/ror.gif)
-* Adding a customized organization name with ROR ID :movie_camera: [GIF Image](docu/ror.gif)
+* Adding the ROR organization name into your author affiliation. :movie_camera: [GIF Image](docs/ror-lookup-ojs-3-4-0.gif)
 
 ## Installation
 
@@ -62,6 +62,10 @@ Licensed under GPLv3. See [LICENSE](LICENSE) for details.
 ### Release 3.0
 
 * Multilingual organization support
+
+### Release 4.0
+
+* OJS 3.4 compatibility
 
 ## Development
 

@@ -1,0 +1,2494 @@
+{
+  "number_of_results": 21,
+  "items": [
+    {
+      "substring": "university of",
+      "score": 0.84,
+      "matching_type": "FUZZY",
+      "chosen": false,
+      "organization": {
+        "id": "https://ror.org/02k7v4d05",
+        "name": "University of Bern",
+        "email_address": "",
+        "ip_addresses": [],
+        "established": 1834,
+        "types": [
+          "Education"
+        ],
+        "relationships": [
+          {
+            "label": "University Hospital of Bern",
+            "type": "Related",
+            "id": "https://ror.org/01q9sj412"
+          },
+          {
+            "label": "Wiederkäuerklinik",
+            "type": "Related",
+            "id": "https://ror.org/003bz8x96"
+          },
+          {
+            "label": "Wyss Academy for Nature",
+            "type": "Child",
+            "id": "https://ror.org/03dz0k314"
+          }
+        ],
+        "addresses": [
+          {
+            "lat": 46.94809,
+            "lng": 7.44744,
+            "state": null,
+            "state_code": null,
+            "city": "Bern",
+            "geonames_city": {
+              "id": 2661552,
+              "city": "Bern",
+              "geonames_admin1": {
+                "name": "Bern",
+                "id": 2661551,
+                "ascii_name": "Bern",
+                "code": "CH.BE"
+              },
+              "geonames_admin2": {
+                "name": "Bern-Mittelland District",
+                "id": 8260142,
+                "ascii_name": "Bern-Mittelland District",
+                "code": "CH.BE.246"
+              },
+              "license": {
+                "attribution": "Data from geonames.org under a CC-BY 3.0 license",
+                "license": "http://creativecommons.org/licenses/by/3.0/"
+              },
+              "nuts_level1": {
+                "name": null,
+                "code": null
+              },
+              "nuts_level2": {
+                "name": null,
+                "code": null
+              },
+              "nuts_level3": {
+                "name": null,
+                "code": null
+              }
+            },
+            "postcode": null,
+            "primary": false,
+            "line": null,
+            "country_geonames_id": 2658434
+          }
+        ],
+        "links": [
+          "http://www.unibe.ch/eng/"
+        ],
+        "aliases": [],
+        "acronyms": [
+          "UB"
+        ],
+        "status": "active",
+        "wikipedia_url": "http://en.wikipedia.org/wiki/University_of_Bern",
+        "labels": [
+          {
+            "label": "Universität Bern",
+            "iso639": "de"
+          },
+          {
+            "label": "Université de Berne",
+            "iso639": "fr"
+          },
+          {
+            "label": "Università di Berna",
+            "iso639": "it"
+          }
+        ],
+        "country": {
+          "country_name": "Switzerland",
+          "country_code": "CH"
+        },
+        "external_ids": {
+          "ISNI": {
+            "preferred": null,
+            "all": [
+              "0000 0001 0726 5157"
+            ]
+          },
+          "FundRef": {
+            "preferred": "100009068",
+            "all": [
+              "100009068",
+              "501100007282",
+              "100009070",
+              "100009069"
+            ]
+          },
+          "OrgRef": {
+            "preferred": null,
+            "all": [
+              "1157515"
+            ]
+          },
+          "Wikidata": {
+            "preferred": null,
+            "all": [
+              "Q659080"
+            ]
+          },
+          "GRID": {
+            "preferred": "grid.5734.5",
+            "all": "grid.5734.5"
+          }
+        }
+      }
+    },
+    {
+      "substring": "university of",
+      "score": 0.84,
+      "matching_type": "FUZZY",
+      "chosen": false,
+      "organization": {
+        "id": "https://ror.org/03ad39j10",
+        "name": "University of Pisa",
+        "email_address": "",
+        "ip_addresses": [],
+        "established": 1343,
+        "types": [
+          "Education"
+        ],
+        "relationships": [
+          {
+            "label": "Ospedale Cisanello",
+            "type": "Related",
+            "id": "https://ror.org/00mc91w09"
+          }
+        ],
+        "addresses": [
+          {
+            "lat": 43.716429,
+            "lng": 10.398687,
+            "state": "Toscana",
+            "state_code": "IT-52",
+            "city": "Pisa",
+            "geonames_city": {
+              "id": 3170647,
+              "city": "Pisa",
+              "geonames_admin1": {
+                "name": "Tuscany",
+                "id": 3165361,
+                "ascii_name": "Tuscany",
+                "code": "IT.16"
+              },
+              "geonames_admin2": {
+                "name": "Province of Pisa",
+                "id": 3170646,
+                "ascii_name": "Province of Pisa",
+                "code": "IT.16.PI"
+              },
+              "license": {
+                "attribution": "Data from geonames.org under a CC-BY 3.0 license",
+                "license": "http://creativecommons.org/licenses/by/3.0/"
+              },
+              "nuts_level1": {
+                "name": "CENTRO (IT)",
+                "code": "ITI"
+              },
+              "nuts_level2": {
+                "name": "Toscana",
+                "code": "ITI1"
+              },
+              "nuts_level3": {
+                "name": "Pisa",
+                "code": "ITI17"
+              }
+            },
+            "postcode": null,
+            "primary": false,
+            "line": null,
+            "country_geonames_id": 3175395
+          }
+        ],
+        "links": [
+          "http://www.unipi.it/"
+        ],
+        "aliases": [],
+        "acronyms": [
+          "UniPi"
+        ],
+        "status": "active",
+        "wikipedia_url": "http://en.wikipedia.org/wiki/University_of_Pisa",
+        "labels": [
+          {
+            "label": "Università di Pisa",
+            "iso639": "it"
+          },
+          {
+            "label": "Universität Pisa",
+            "iso639": "de"
+          },
+          {
+            "label": "Université de Pise",
+            "iso639": "fr"
+          }
+        ],
+        "country": {
+          "country_name": "Italy",
+          "country_code": "IT"
+        },
+        "external_ids": {
+          "ISNI": {
+            "preferred": null,
+            "all": [
+              "0000 0004 1757 3729"
+            ]
+          },
+          "FundRef": {
+            "preferred": null,
+            "all": [
+              "501100007514"
+            ]
+          },
+          "OrgRef": {
+            "preferred": null,
+            "all": [
+              "453158"
+            ]
+          },
+          "Wikidata": {
+            "preferred": null,
+            "all": [
+              "Q645663"
+            ]
+          },
+          "GRID": {
+            "preferred": "grid.5395.a",
+            "all": "grid.5395.a"
+          }
+        }
+      }
+    },
+    {
+      "substring": "university of",
+      "score": 0.81,
+      "matching_type": "FUZZY",
+      "chosen": false,
+      "organization": {
+        "id": "https://ror.org/02s6k3f65",
+        "name": "University of Basel",
+        "email_address": "",
+        "ip_addresses": [],
+        "established": 1460,
+        "types": [
+          "Education"
+        ],
+        "relationships": [
+          {
+            "label": "Friedrich Miescher Institute",
+            "type": "Related",
+            "id": "https://ror.org/01bmjkv45"
+          },
+          {
+            "label": "Swiss Tropical and Public Health Institute",
+            "type": "Related",
+            "id": "https://ror.org/03adhka07"
+          },
+          {
+            "label": "University Children’s Hospital Basel",
+            "type": "Related",
+            "id": "https://ror.org/02nhqek82"
+          },
+          {
+            "label": "University Hospital of Basel",
+            "type": "Related",
+            "id": "https://ror.org/04k51q396"
+          },
+          {
+            "label": "Universitäre Psychiatrische Kliniken Basel",
+            "type": "Related",
+            "id": "https://ror.org/05fw3jg78"
+          },
+          {
+            "label": "Swiss National Data and Service Center for the Humanities",
+            "type": "Related",
+            "id": "https://ror.org/047f01g80"
+          },
+          {
+            "label": "Swiss Nanoscience Institute",
+            "type": "Child",
+            "id": "https://ror.org/02mrd0686"
+          },
+          {
+            "label": "Swiss Centre for Applied Human Toxicology",
+            "type": "Related",
+            "id": "https://ror.org/03wma5x57"
+          }
+        ],
+        "addresses": [
+          {
+            "lat": 47.55839,
+            "lng": 7.57327,
+            "state": null,
+            "state_code": null,
+            "city": "Basel",
+            "geonames_city": {
+              "id": 2661604,
+              "city": "Basel",
+              "geonames_admin1": {
+                "name": "Basel-City",
+                "id": 2661602,
+                "ascii_name": "Basel-City",
+                "code": "CH.BS"
+              },
+              "geonames_admin2": {
+                "name": "Basel-Stadt",
+                "id": 6458763,
+                "ascii_name": "Basel-Stadt",
+                "code": "CH.BS.1200"
+              },
+              "license": {
+                "attribution": "Data from geonames.org under a CC-BY 3.0 license",
+                "license": "http://creativecommons.org/licenses/by/3.0/"
+              },
+              "nuts_level1": {
+                "name": null,
+                "code": null
+              },
+              "nuts_level2": {
+                "name": null,
+                "code": null
+              },
+              "nuts_level3": {
+                "name": null,
+                "code": null
+              }
+            },
+            "postcode": null,
+            "primary": false,
+            "line": null,
+            "country_geonames_id": 2658434
+          }
+        ],
+        "links": [
+          "https://www.unibas.ch/de"
+        ],
+        "aliases": [],
+        "acronyms": [],
+        "status": "active",
+        "wikipedia_url": "http://en.wikipedia.org/wiki/University_of_Basel",
+        "labels": [
+          {
+            "label": "Universität Basel",
+            "iso639": "de"
+          },
+          {
+            "label": "Université de Bâle",
+            "iso639": "fr"
+          },
+          {
+            "label": "Università di Basilea",
+            "iso639": "it"
+          }
+        ],
+        "country": {
+          "country_name": "Switzerland",
+          "country_code": "CH"
+        },
+        "external_ids": {
+          "ISNI": {
+            "preferred": null,
+            "all": [
+              "0000 0004 1937 0642"
+            ]
+          },
+          "FundRef": {
+            "preferred": "100008375",
+            "all": [
+              "100008375",
+              "501100008595",
+              "100018710"
+            ]
+          },
+          "OrgRef": {
+            "preferred": null,
+            "all": [
+              "427614"
+            ]
+          },
+          "Wikidata": {
+            "preferred": null,
+            "all": [
+              "Q372608"
+            ]
+          },
+          "GRID": {
+            "preferred": "grid.6612.3",
+            "all": "grid.6612.3"
+          }
+        }
+      }
+    },
+    {
+      "substring": "university of",
+      "score": 0.79,
+      "matching_type": "PHRASE",
+      "chosen": false,
+      "organization": {
+        "id": "https://ror.org/00yfma824",
+        "name": "Université de Zinder",
+        "email_address": null,
+        "ip_addresses": [],
+        "established": 2010,
+        "types": [
+          "Education"
+        ],
+        "relationships": [],
+        "addresses": [
+          {
+            "lat": 13.802021,
+            "lng": 8.985206,
+            "state": null,
+            "state_code": null,
+            "city": "Zinder",
+            "geonames_city": {
+              "id": 2437798,
+              "city": "Zinder",
+              "geonames_admin1": {
+                "name": "Zinder",
+                "id": 2437797,
+                "ascii_name": "Zinder",
+                "code": "NE.07"
+              },
+              "geonames_admin2": {
+                "name": null,
+                "id": null,
+                "ascii_name": null,
+                "code": null
+              },
+              "license": {
+                "attribution": "Data from geonames.org under a CC-BY 3.0 license",
+                "license": "http://creativecommons.org/licenses/by/3.0/"
+              },
+              "nuts_level1": {
+                "name": null,
+                "code": null
+              },
+              "nuts_level2": {
+                "name": null,
+                "code": null
+              },
+              "nuts_level3": {
+                "name": null,
+                "code": null
+              }
+            },
+            "postcode": null,
+            "primary": false,
+            "line": null,
+            "country_geonames_id": 2440476
+          }
+        ],
+        "links": [],
+        "aliases": [],
+        "acronyms": [],
+        "status": "active",
+        "wikipedia_url": "",
+        "labels": [
+          {
+            "label": "University of Zinder",
+            "iso639": "en"
+          }
+        ],
+        "country": {
+          "country_name": "Niger",
+          "country_code": "NE"
+        },
+        "external_ids": {
+          "ISNI": {
+            "preferred": null,
+            "all": [
+              "0000 0004 7860 7080"
+            ]
+          },
+          "Wikidata": {
+            "preferred": null,
+            "all": [
+              "Q3551691"
+            ]
+          },
+          "GRID": {
+            "preferred": "grid.508469.6",
+            "all": "grid.508469.6"
+          }
+        }
+      }
+    },
+    {
+      "substring": "university of",
+      "score": 0.79,
+      "matching_type": "FUZZY",
+      "chosen": false,
+      "organization": {
+        "id": "https://ror.org/02crff812",
+        "name": "University of Zurich",
+        "email_address": "",
+        "ip_addresses": [],
+        "established": 1833,
+        "types": [
+          "Education"
+        ],
+        "relationships": [
+          {
+            "label": "University Children's Hospital Zurich",
+            "type": "Related",
+            "id": "https://ror.org/035vb3h42"
+          },
+          {
+            "label": "University Hospital of Zurich",
+            "type": "Related",
+            "id": "https://ror.org/01462r250"
+          },
+          {
+            "label": "Institute for Biomedical Engineering",
+            "type": "Child",
+            "id": "https://ror.org/00baskk38"
+          },
+          {
+            "label": "Laboratory for Social and Neural Systems Research",
+            "type": "Child",
+            "id": "https://ror.org/021p56f43"
+          },
+          {
+            "label": "Wyss Institute for Biologically Inspired Engineering",
+            "type": "Related",
+            "id": "https://ror.org/008cfmj78"
+          },
+          {
+            "label": "World Glacier Monitoring Service",
+            "type": "Related",
+            "id": "https://ror.org/01jtrvx49"
+          }
+        ],
+        "addresses": [
+          {
+            "lat": 47.36667,
+            "lng": 8.55,
+            "state": null,
+            "state_code": null,
+            "city": "Zurich",
+            "geonames_city": {
+              "id": 2657896,
+              "city": "Zurich",
+              "geonames_admin1": {
+                "name": "Zurich",
+                "id": 2657895,
+                "ascii_name": "Zurich",
+                "code": "CH.ZH"
+              },
+              "geonames_admin2": {
+                "name": "Zürich District",
+                "id": 6458798,
+                "ascii_name": "Zürich District",
+                "code": "CH.ZH.112"
+              },
+              "license": {
+                "attribution": "Data from geonames.org under a CC-BY 3.0 license",
+                "license": "http://creativecommons.org/licenses/by/3.0/"
+              },
+              "nuts_level1": {
+                "name": null,
+                "code": null
+              },
+              "nuts_level2": {
+                "name": null,
+                "code": null
+              },
+              "nuts_level3": {
+                "name": null,
+                "code": null
+              }
+            },
+            "postcode": null,
+            "primary": false,
+            "line": null,
+            "country_geonames_id": 2658434
+          }
+        ],
+        "links": [
+          "http://www.uzh.ch/index_en.html"
+        ],
+        "aliases": [],
+        "acronyms": [
+          "UZH"
+        ],
+        "status": "active",
+        "wikipedia_url": "http://en.wikipedia.org/wiki/University_of_Zurich",
+        "labels": [
+          {
+            "label": "Universität Zürich",
+            "iso639": "de"
+          },
+          {
+            "label": "Università di Zurigo",
+            "iso639": "it"
+          },
+          {
+            "label": "Université de Zurich",
+            "iso639": "fr"
+          }
+        ],
+        "country": {
+          "country_name": "Switzerland",
+          "country_code": "CH"
+        },
+        "external_ids": {
+          "ISNI": {
+            "preferred": null,
+            "all": [
+              "0000 0004 1937 0650"
+            ]
+          },
+          "FundRef": {
+            "preferred": "501100006447",
+            "all": [
+              "501100006447",
+              "501100008481",
+              "501100006448",
+              "501100003290"
+            ]
+          },
+          "OrgRef": {
+            "preferred": null,
+            "all": [
+              "314803"
+            ]
+          },
+          "Wikidata": {
+            "preferred": null,
+            "all": [
+              "Q206702"
+            ]
+          },
+          "GRID": {
+            "preferred": "grid.7400.3",
+            "all": "grid.7400.3"
+          }
+        }
+      }
+    },
+    {
+      "substring": "university of",
+      "score": 0.79,
+      "matching_type": "PHRASE",
+      "chosen": false,
+      "organization": {
+        "id": "https://ror.org/054v4yq51",
+        "name": "Universidad de Londres",
+        "email_address": null,
+        "ip_addresses": [],
+        "established": null,
+        "types": [
+          "Education"
+        ],
+        "relationships": [],
+        "addresses": [
+          {
+            "lat": 19.417338,
+            "lng": -99.159719,
+            "state": null,
+            "state_code": null,
+            "city": "Mexico City",
+            "geonames_city": {
+              "id": 3530597,
+              "city": "Mexico City",
+              "geonames_admin1": {
+                "name": "Mexico City",
+                "id": 3527646,
+                "ascii_name": "Mexico City",
+                "code": "MX.09"
+              },
+              "geonames_admin2": {
+                "name": null,
+                "id": null,
+                "ascii_name": null,
+                "code": null
+              },
+              "license": {
+                "attribution": "Data from geonames.org under a CC-BY 3.0 license",
+                "license": "http://creativecommons.org/licenses/by/3.0/"
+              },
+              "nuts_level1": {
+                "name": null,
+                "code": null
+              },
+              "nuts_level2": {
+                "name": null,
+                "code": null
+              },
+              "nuts_level3": {
+                "name": null,
+                "code": null
+              }
+            },
+            "postcode": null,
+            "primary": false,
+            "line": null,
+            "country_geonames_id": 3996063
+          }
+        ],
+        "links": [
+          "https://udlondres.com/"
+        ],
+        "aliases": [],
+        "acronyms": [],
+        "status": "active",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Universidad_de_Londres",
+        "labels": [
+          {
+            "label": "University of London",
+            "iso639": "es"
+          }
+        ],
+        "country": {
+          "country_name": "Mexico",
+          "country_code": "MX"
+        },
+        "external_ids": {
+          "ISNI": {
+            "preferred": null,
+            "all": [
+              "0000 0004 0478 7939"
+            ]
+          },
+          "Wikidata": {
+            "preferred": null,
+            "all": [
+              "Q26710672"
+            ]
+          },
+          "GRID": {
+            "preferred": "grid.440992.2",
+            "all": "grid.440992.2"
+          }
+        }
+      }
+    },
+    {
+      "substring": "university of",
+      "score": 0.76,
+      "matching_type": "PHRASE",
+      "chosen": false,
+      "organization": {
+        "id": "https://ror.org/003vfy751",
+        "name": "Université du Burundi",
+        "email_address": null,
+        "ip_addresses": [],
+        "established": 1964,
+        "types": [
+          "Education"
+        ],
+        "relationships": [],
+        "addresses": [
+          {
+            "lat": -3.379034,
+            "lng": 29.383828,
+            "state": null,
+            "state_code": null,
+            "city": "Bujumbura",
+            "geonames_city": {
+              "id": 425378,
+              "city": "Bujumbura",
+              "geonames_admin1": {
+                "name": "Bujumbura Mairie",
+                "id": 7303939,
+                "ascii_name": "Bujumbura Mairie",
+                "code": "BI.24"
+              },
+              "geonames_admin2": {
+                "name": null,
+                "id": null,
+                "ascii_name": null,
+                "code": null
+              },
+              "license": {
+                "attribution": "Data from geonames.org under a CC-BY 3.0 license",
+                "license": "http://creativecommons.org/licenses/by/3.0/"
+              },
+              "nuts_level1": {
+                "name": null,
+                "code": null
+              },
+              "nuts_level2": {
+                "name": null,
+                "code": null
+              },
+              "nuts_level3": {
+                "name": null,
+                "code": null
+              }
+            },
+            "postcode": null,
+            "primary": false,
+            "line": null,
+            "country_geonames_id": 433561
+          }
+        ],
+        "links": [
+          "http://www.ub.edu.bi/"
+        ],
+        "aliases": [],
+        "acronyms": [],
+        "status": "active",
+        "wikipedia_url": "http://en.wikipedia.org/wiki/University_of_Burundi",
+        "labels": [
+          {
+            "label": "University of Burundi",
+            "iso639": "en"
+          }
+        ],
+        "country": {
+          "country_name": "Burundi",
+          "country_code": "BI"
+        },
+        "external_ids": {
+          "ISNI": {
+            "preferred": null,
+            "all": [
+              "0000 0001 0723 7738"
+            ]
+          },
+          "Wikidata": {
+            "preferred": null,
+            "all": [
+              "Q719925"
+            ]
+          },
+          "GRID": {
+            "preferred": "grid.7749.d",
+            "all": "grid.7749.d"
+          }
+        }
+      }
+    },
+    {
+      "substring": "university of",
+      "score": 0.76,
+      "matching_type": "FUZZY",
+      "chosen": false,
+      "organization": {
+        "id": "https://ror.org/00kgrkn83",
+        "name": "University of Lucerne",
+        "email_address": null,
+        "ip_addresses": [],
+        "established": 2000,
+        "types": [
+          "Education"
+        ],
+        "relationships": [],
+        "addresses": [
+          {
+            "lat": 47.05048,
+            "lng": 8.30635,
+            "state": null,
+            "state_code": null,
+            "city": "Lucerne",
+            "geonames_city": {
+              "id": 2659811,
+              "city": "Lucerne",
+              "geonames_admin1": {
+                "name": "Lucerne",
+                "id": 2659810,
+                "ascii_name": "Lucerne",
+                "code": "CH.LU"
+              },
+              "geonames_admin2": {
+                "name": "Lucerne-Stadt District",
+                "id": 8718163,
+                "ascii_name": "Lucerne-Stadt District",
+                "code": "CH.LU.311"
+              },
+              "license": {
+                "attribution": "Data from geonames.org under a CC-BY 3.0 license",
+                "license": "http://creativecommons.org/licenses/by/3.0/"
+              },
+              "nuts_level1": {
+                "name": null,
+                "code": null
+              },
+              "nuts_level2": {
+                "name": null,
+                "code": null
+              },
+              "nuts_level3": {
+                "name": null,
+                "code": null
+              }
+            },
+            "postcode": null,
+            "primary": false,
+            "line": null,
+            "country_geonames_id": 2658434
+          }
+        ],
+        "links": [
+          "http://www.unilu.ch/"
+        ],
+        "aliases": [],
+        "acronyms": [
+          "UNILU"
+        ],
+        "status": "active",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/University_of_Lucerne",
+        "labels": [
+          {
+            "label": "Universität Luzern",
+            "iso639": "de"
+          },
+          {
+            "label": "Université de Lucerne",
+            "iso639": "fr"
+          },
+          {
+            "label": "Università di Lucerna",
+            "iso639": "it"
+          }
+        ],
+        "country": {
+          "country_name": "Switzerland",
+          "country_code": "CH"
+        },
+        "external_ids": {
+          "ISNI": {
+            "preferred": null,
+            "all": [
+              "0000 0001 1456 7938"
+            ]
+          },
+          "OrgRef": {
+            "preferred": null,
+            "all": [
+              "21004764"
+            ]
+          },
+          "Wikidata": {
+            "preferred": null,
+            "all": [
+              "Q673308"
+            ]
+          },
+          "GRID": {
+            "preferred": "grid.449852.6",
+            "all": "grid.449852.6"
+          }
+        }
+      }
+    },
+    {
+      "substring": "university of",
+      "score": 0.76,
+      "matching_type": "PHRASE",
+      "chosen": false,
+      "organization": {
+        "id": "https://ror.org/00tnb2p82",
+        "name": "Universidad de Morelia",
+        "email_address": null,
+        "ip_addresses": [],
+        "established": 1994,
+        "types": [
+          "Education"
+        ],
+        "relationships": [],
+        "addresses": [
+          {
+            "lat": 19.701361,
+            "lng": -101.177472,
+            "state": null,
+            "state_code": null,
+            "city": "Morelia",
+            "geonames_city": {
+              "id": 3995402,
+              "city": "Morelia",
+              "geonames_admin1": {
+                "name": "Michoacán",
+                "id": 3995955,
+                "ascii_name": "Michoacan",
+                "code": "MX.16"
+              },
+              "geonames_admin2": {
+                "name": "Morelia",
+                "id": 8582310,
+                "ascii_name": "Morelia",
+                "code": "MX.16.053"
+              },
+              "license": {
+                "attribution": "Data from geonames.org under a CC-BY 3.0 license",
+                "license": "http://creativecommons.org/licenses/by/3.0/"
+              },
+              "nuts_level1": {
+                "name": null,
+                "code": null
+              },
+              "nuts_level2": {
+                "name": null,
+                "code": null
+              },
+              "nuts_level3": {
+                "name": null,
+                "code": null
+              }
+            },
+            "postcode": null,
+            "primary": false,
+            "line": null,
+            "country_geonames_id": 3996063
+          }
+        ],
+        "links": [
+          "https://www.udemorelia.edu.mx/"
+        ],
+        "aliases": [
+          "UdeMorelia"
+        ],
+        "acronyms": [
+          "UDEM"
+        ],
+        "status": "active",
+        "wikipedia_url": "",
+        "labels": [
+          {
+            "label": "University of Morelia",
+            "iso639": "en"
+          }
+        ],
+        "country": {
+          "country_name": "Mexico",
+          "country_code": "MX"
+        },
+        "external_ids": {
+          "ISNI": {
+            "preferred": null,
+            "all": [
+              "0000 0004 6049 0240"
+            ]
+          },
+          "Wikidata": {
+            "preferred": null,
+            "all": [
+              "Q6156788"
+            ]
+          },
+          "GRID": {
+            "preferred": "grid.441208.b",
+            "all": "grid.441208.b"
+          }
+        }
+      }
+    },
+    {
+      "substring": "university of",
+      "score": 0.76,
+      "matching_type": "FUZZY",
+      "chosen": false,
+      "organization": {
+        "id": "https://ror.org/01111rn36",
+        "name": "University of Bologna",
+        "email_address": "",
+        "ip_addresses": [],
+        "established": 1088,
+        "types": [
+          "Education"
+        ],
+        "relationships": [
+          {
+            "label": "Policlinico S.Orsola-Malpighi",
+            "type": "Related",
+            "id": "https://ror.org/00t4vnv68"
+          },
+          {
+            "label": "INFN Sezione di Bologna",
+            "type": "Related",
+            "id": "https://ror.org/04j0x0h93"
+          }
+        ],
+        "addresses": [
+          {
+            "lat": 44.49381,
+            "lng": 11.33875,
+            "state": null,
+            "state_code": null,
+            "city": "Bologna",
+            "geonames_city": {
+              "id": 3181928,
+              "city": "Bologna",
+              "geonames_admin1": {
+                "name": "Emilia-Romagna",
+                "id": 3177401,
+                "ascii_name": "Emilia-Romagna",
+                "code": "IT.05"
+              },
+              "geonames_admin2": {
+                "name": "Bologna",
+                "id": 3181927,
+                "ascii_name": "Bologna",
+                "code": "IT.05.BO"
+              },
+              "license": {
+                "attribution": "Data from geonames.org under a CC-BY 3.0 license",
+                "license": "http://creativecommons.org/licenses/by/3.0/"
+              },
+              "nuts_level1": {
+                "name": null,
+                "code": null
+              },
+              "nuts_level2": {
+                "name": null,
+                "code": null
+              },
+              "nuts_level3": {
+                "name": null,
+                "code": null
+              }
+            },
+            "postcode": null,
+            "primary": false,
+            "line": null,
+            "country_geonames_id": 3175395
+          }
+        ],
+        "links": [
+          "http://www.unibo.it/en/homepage"
+        ],
+        "aliases": [],
+        "acronyms": [
+          "UNIBO"
+        ],
+        "status": "active",
+        "wikipedia_url": "http://en.wikipedia.org/wiki/University_of_Bologna",
+        "labels": [
+          {
+            "label": "Università di Bologna",
+            "iso639": "it"
+          },
+          {
+            "label": "Universitat de Bolonya",
+            "iso639": "ca"
+          },
+          {
+            "label": "Universität Bologna",
+            "iso639": "de"
+          },
+          {
+            "label": "Université de bologne",
+            "iso639": "fr"
+          }
+        ],
+        "country": {
+          "country_name": "Italy",
+          "country_code": "IT"
+        },
+        "external_ids": {
+          "ISNI": {
+            "preferred": null,
+            "all": [
+              "0000 0004 1757 1758"
+            ]
+          },
+          "FundRef": {
+            "preferred": null,
+            "all": [
+              "501100005969"
+            ]
+          },
+          "OrgRef": {
+            "preferred": null,
+            "all": [
+              "263329"
+            ]
+          },
+          "Wikidata": {
+            "preferred": null,
+            "all": [
+              "Q131262"
+            ]
+          },
+          "GRID": {
+            "preferred": "grid.6292.f",
+            "all": "grid.6292.f"
+          }
+        }
+      }
+    },
+    {
+      "substring": "university of",
+      "score": 0.76,
+      "matching_type": "PHRASE",
+      "chosen": false,
+      "organization": {
+        "id": "https://ror.org/01gt7sg63",
+        "name": "Universidade de Taubaté",
+        "email_address": null,
+        "ip_addresses": [],
+        "established": 1956,
+        "types": [
+          "Education"
+        ],
+        "relationships": [],
+        "addresses": [
+          {
+            "lat": -23.027417,
+            "lng": -45.559605,
+            "state": null,
+            "state_code": null,
+            "city": "Taubaté",
+            "geonames_city": {
+              "id": 3446682,
+              "city": "Taubaté",
+              "geonames_admin1": {
+                "name": "São Paulo",
+                "id": 3448433,
+                "ascii_name": "Sao Paulo",
+                "code": "BR.27"
+              },
+              "geonames_admin2": {
+                "name": "Taubaté",
+                "id": 6322621,
+                "ascii_name": "Taubate",
+                "code": "BR.27.3554102"
+              },
+              "license": {
+                "attribution": "Data from geonames.org under a CC-BY 3.0 license",
+                "license": "http://creativecommons.org/licenses/by/3.0/"
+              },
+              "nuts_level1": {
+                "name": null,
+                "code": null
+              },
+              "nuts_level2": {
+                "name": null,
+                "code": null
+              },
+              "nuts_level3": {
+                "name": null,
+                "code": null
+              }
+            },
+            "postcode": null,
+            "primary": false,
+            "line": null,
+            "country_geonames_id": 3469034
+          }
+        ],
+        "links": [
+          "http://www.unitau.br/"
+        ],
+        "aliases": [],
+        "acronyms": [
+          "UNITAU"
+        ],
+        "status": "active",
+        "wikipedia_url": "http://en.wikipedia.org/wiki/Universidade_de_Taubat%C3%A9",
+        "labels": [
+          {
+            "label": "University of Taubaté",
+            "iso639": "en"
+          }
+        ],
+        "country": {
+          "country_name": "Brazil",
+          "country_code": "BR"
+        },
+        "external_ids": {
+          "ISNI": {
+            "preferred": null,
+            "all": [
+              "0000 0001 1395 7782"
+            ]
+          },
+          "OrgRef": {
+            "preferred": null,
+            "all": [
+              "12815187"
+            ]
+          },
+          "Wikidata": {
+            "preferred": null,
+            "all": [
+              "Q7894404"
+            ]
+          },
+          "GRID": {
+            "preferred": "grid.412286.b",
+            "all": "grid.412286.b"
+          }
+        }
+      }
+    },
+    {
+      "substring": "university of",
+      "score": 0.76,
+      "matching_type": "PHRASE",
+      "chosen": false,
+      "organization": {
+        "id": "https://ror.org/0442zbe52",
+        "name": "Universidade da Madeira",
+        "email_address": null,
+        "ip_addresses": [],
+        "established": 1988,
+        "types": [
+          "Education"
+        ],
+        "relationships": [],
+        "addresses": [
+          {
+            "lat": 32.66568,
+            "lng": -16.92547,
+            "state": null,
+            "state_code": null,
+            "city": "Funchal",
+            "geonames_city": {
+              "id": 2267827,
+              "city": "Funchal",
+              "geonames_admin1": {
+                "name": "Madeira",
+                "id": 2593105,
+                "ascii_name": "Madeira",
+                "code": "PT.10"
+              },
+              "geonames_admin2": {
+                "name": "Funchal Municipality",
+                "id": 8010675,
+                "ascii_name": "Funchal Municipality",
+                "code": "PT.10.3103"
+              },
+              "license": {
+                "attribution": "Data from geonames.org under a CC-BY 3.0 license",
+                "license": "http://creativecommons.org/licenses/by/3.0/"
+              },
+              "nuts_level1": {
+                "name": null,
+                "code": null
+              },
+              "nuts_level2": {
+                "name": null,
+                "code": null
+              },
+              "nuts_level3": {
+                "name": null,
+                "code": null
+              }
+            },
+            "postcode": null,
+            "primary": false,
+            "line": null,
+            "country_geonames_id": 2264397
+          }
+        ],
+        "links": [
+          "https://www.uma.pt/"
+        ],
+        "aliases": [],
+        "acronyms": [
+          "UMa"
+        ],
+        "status": "active",
+        "wikipedia_url": "http://en.wikipedia.org/wiki/University_of_Madeira",
+        "labels": [
+          {
+            "label": "University of Madeira",
+            "iso639": "en"
+          }
+        ],
+        "country": {
+          "country_name": "Portugal",
+          "country_code": "PT"
+        },
+        "external_ids": {
+          "ISNI": {
+            "preferred": null,
+            "all": [
+              "0000 0001 2155 1272"
+            ]
+          },
+          "FundRef": {
+            "preferred": "501100013990",
+            "all": [
+              "501100013990"
+            ]
+          },
+          "OrgRef": {
+            "preferred": null,
+            "all": [
+              "2093363"
+            ]
+          },
+          "Wikidata": {
+            "preferred": null,
+            "all": [
+              "Q1434847"
+            ]
+          },
+          "GRID": {
+            "preferred": "grid.26793.39",
+            "all": "grid.26793.39"
+          }
+        }
+      }
+    },
+    {
+      "substring": "university of",
+      "score": 0.76,
+      "matching_type": "PHRASE",
+      "chosen": false,
+      "organization": {
+        "id": "https://ror.org/0566t4z20",
+        "name": "Université de Dschang",
+        "email_address": null,
+        "ip_addresses": [],
+        "established": 1993,
+        "types": [
+          "Education"
+        ],
+        "relationships": [],
+        "addresses": [
+          {
+            "lat": 5.446953,
+            "lng": 10.065169,
+            "state": null,
+            "state_code": null,
+            "city": "Dschang",
+            "geonames_city": {
+              "id": 2232444,
+              "city": "Dschang",
+              "geonames_admin1": {
+                "name": "West",
+                "id": 2222934,
+                "ascii_name": "West",
+                "code": "CM.08"
+              },
+              "geonames_admin2": {
+                "name": null,
+                "id": null,
+                "ascii_name": null,
+                "code": null
+              },
+              "license": {
+                "attribution": "Data from geonames.org under a CC-BY 3.0 license",
+                "license": "http://creativecommons.org/licenses/by/3.0/"
+              },
+              "nuts_level1": {
+                "name": null,
+                "code": null
+              },
+              "nuts_level2": {
+                "name": null,
+                "code": null
+              },
+              "nuts_level3": {
+                "name": null,
+                "code": null
+              }
+            },
+            "postcode": null,
+            "primary": false,
+            "line": null,
+            "country_geonames_id": 2233387
+          }
+        ],
+        "links": [
+          "http://www.univ-dschang.org/"
+        ],
+        "aliases": [],
+        "acronyms": [],
+        "status": "active",
+        "wikipedia_url": "http://en.wikipedia.org/wiki/University_of_Dschang",
+        "labels": [
+          {
+            "label": "University of Dschang",
+            "iso639": "en"
+          }
+        ],
+        "country": {
+          "country_name": "Cameroon",
+          "country_code": "CM"
+        },
+        "external_ids": {
+          "ISNI": {
+            "preferred": null,
+            "all": [
+              "0000 0001 0657 2358"
+            ]
+          },
+          "Wikidata": {
+            "preferred": null,
+            "all": [
+              "Q3551583"
+            ]
+          },
+          "GRID": {
+            "preferred": "grid.8201.b",
+            "all": "grid.8201.b"
+          }
+        }
+      }
+    },
+    {
+      "substring": "university of",
+      "score": 0.74,
+      "matching_type": "FUZZY",
+      "chosen": false,
+      "organization": {
+        "id": "https://ror.org/019whta54",
+        "name": "University of Lausanne",
+        "email_address": null,
+        "ip_addresses": [],
+        "established": 1537,
+        "types": [
+          "Education"
+        ],
+        "relationships": [
+          {
+            "label": "Cantonal and University Library of Lausanne",
+            "type": "Related",
+            "id": "https://ror.org/010dca812"
+          },
+          {
+            "label": "University Hospital of Lausanne",
+            "type": "Related",
+            "id": "https://ror.org/05a353079"
+          },
+          {
+            "label": "Institut Supérieur pour l'Étude des Religions et de la Laïcité",
+            "type": "Child",
+            "id": "https://ror.org/01ap27310"
+          },
+          {
+            "label": "Institute of Social and Preventive Medicine",
+            "type": "Child",
+            "id": "https://ror.org/038esz880"
+          },
+          {
+            "label": "Swiss Cancer Center Léman",
+            "type": "Child",
+            "id": "https://ror.org/03kwyfa97"
+          },
+          {
+            "label": "Swiss National Data and Service Center for the Humanities",
+            "type": "Related",
+            "id": "https://ror.org/047f01g80"
+          },
+          {
+            "label": "Institute of Radiation Physics",
+            "type": "Related",
+            "id": "https://ror.org/03ts7z477"
+          },
+          {
+            "label": "Swiss Centre for Applied Human Toxicology",
+            "type": "Related",
+            "id": "https://ror.org/03wma5x57"
+          }
+        ],
+        "addresses": [
+          {
+            "lat": 46.516,
+            "lng": 6.63282,
+            "state": null,
+            "state_code": null,
+            "city": "Lausanne",
+            "geonames_city": {
+              "id": 2659994,
+              "city": "Lausanne",
+              "geonames_admin1": {
+                "name": "Vaud",
+                "id": 2658182,
+                "ascii_name": "Vaud",
+                "code": "CH.VD"
+              },
+              "geonames_admin2": {
+                "name": "Lausanne District",
+                "id": 6458866,
+                "ascii_name": "Lausanne District",
+                "code": "CH.VD.2225"
+              },
+              "license": {
+                "attribution": "Data from geonames.org under a CC-BY 3.0 license",
+                "license": "http://creativecommons.org/licenses/by/3.0/"
+              },
+              "nuts_level1": {
+                "name": null,
+                "code": null
+              },
+              "nuts_level2": {
+                "name": null,
+                "code": null
+              },
+              "nuts_level3": {
+                "name": null,
+                "code": null
+              }
+            },
+            "postcode": null,
+            "primary": false,
+            "line": null,
+            "country_geonames_id": 2658434
+          }
+        ],
+        "links": [
+          "http://www.unil.ch/central/en/home.html"
+        ],
+        "aliases": [
+          "Schola Lausannensis"
+        ],
+        "acronyms": [
+          "UNIL"
+        ],
+        "status": "active",
+        "wikipedia_url": "http://en.wikipedia.org/wiki/University_of_Lausanne",
+        "labels": [
+          {
+            "label": "Université de Lausanne",
+            "iso639": "fr"
+          },
+          {
+            "label": "Universität Lausanne",
+            "iso639": "de"
+          },
+          {
+            "label": "Università di Losanna",
+            "iso639": "it"
+          }
+        ],
+        "country": {
+          "country_name": "Switzerland",
+          "country_code": "CH"
+        },
+        "external_ids": {
+          "ISNI": {
+            "preferred": null,
+            "all": [
+              "0000 0001 2165 4204"
+            ]
+          },
+          "FundRef": {
+            "preferred": null,
+            "all": [
+              "501100006390"
+            ]
+          },
+          "OrgRef": {
+            "preferred": "79810",
+            "all": [
+              "79810",
+              "14665582"
+            ]
+          },
+          "Wikidata": {
+            "preferred": null,
+            "all": [
+              "Q658975"
+            ]
+          },
+          "GRID": {
+            "preferred": "grid.9851.5",
+            "all": "grid.9851.5"
+          }
+        }
+      }
+    },
+    {
+      "substring": "university of",
+      "score": 0.74,
+      "matching_type": "FUZZY",
+      "chosen": false,
+      "organization": {
+        "id": "https://ror.org/022fs9h90",
+        "name": "University of Fribourg",
+        "email_address": "",
+        "ip_addresses": [],
+        "established": 1889,
+        "types": [
+          "Education"
+        ],
+        "relationships": [
+          {
+            "label": "HFR Freiburg Kantonsspital",
+            "type": "Related",
+            "id": "https://ror.org/00fz8k419"
+          },
+          {
+            "label": "Adolphe Merkle Institute",
+            "type": "Child",
+            "id": "https://ror.org/01yx62742"
+          }
+        ],
+        "addresses": [
+          {
+            "lat": 46.806488,
+            "lng": 7.151782,
+            "state": "Freiburg",
+            "state_code": "CH-FR",
+            "city": "Fribourg",
+            "geonames_city": {
+              "id": 2660718,
+              "city": "Fribourg",
+              "geonames_admin1": {
+                "name": "Fribourg",
+                "id": 2660717,
+                "ascii_name": "Fribourg",
+                "code": "CH.FR"
+              },
+              "geonames_admin2": {
+                "name": "Sarine District",
+                "id": 6458767,
+                "ascii_name": "Sarine District",
+                "code": "CH.FR.1004"
+              },
+              "license": {
+                "attribution": "Data from geonames.org under a CC-BY 3.0 license",
+                "license": "http://creativecommons.org/licenses/by/3.0/"
+              },
+              "nuts_level1": {
+                "name": null,
+                "code": null
+              },
+              "nuts_level2": {
+                "name": null,
+                "code": null
+              },
+              "nuts_level3": {
+                "name": null,
+                "code": null
+              }
+            },
+            "postcode": null,
+            "primary": false,
+            "line": null,
+            "country_geonames_id": 2658434
+          }
+        ],
+        "links": [
+          "http://www.unifr.ch/home/welcomeE.php"
+        ],
+        "aliases": [],
+        "acronyms": [],
+        "status": "active",
+        "wikipedia_url": "http://en.wikipedia.org/wiki/University_of_Fribourg",
+        "labels": [
+          {
+            "label": "Université de Fribourg",
+            "iso639": "fr"
+          },
+          {
+            "label": "Universität Freiburg",
+            "iso639": "de"
+          },
+          {
+            "label": "Università di Friburgo",
+            "iso639": "it"
+          }
+        ],
+        "country": {
+          "country_name": "Switzerland",
+          "country_code": "CH"
+        },
+        "external_ids": {
+          "ISNI": {
+            "preferred": null,
+            "all": [
+              "0000 0004 0478 1713"
+            ]
+          },
+          "FundRef": {
+            "preferred": null,
+            "all": [
+              "501100005869"
+            ]
+          },
+          "OrgRef": {
+            "preferred": null,
+            "all": [
+              "535267"
+            ]
+          },
+          "Wikidata": {
+            "preferred": null,
+            "all": [
+              "Q36188"
+            ]
+          },
+          "GRID": {
+            "preferred": "grid.8534.a",
+            "all": "grid.8534.a"
+          }
+        }
+      }
+    },
+    {
+      "substring": "university of",
+      "score": 0.74,
+      "matching_type": "FUZZY",
+      "chosen": false,
+      "organization": {
+        "id": "https://ror.org/02rc97e94",
+        "name": "University of Calabria",
+        "email_address": null,
+        "ip_addresses": [],
+        "established": 1972,
+        "types": [
+          "Education"
+        ],
+        "relationships": [
+          {
+            "label": "INFN Gruppo Collegato di Cosenza",
+            "type": "Related",
+            "id": "https://ror.org/039epzh36"
+          }
+        ],
+        "addresses": [
+          {
+            "lat": 39.33154,
+            "lng": 16.18041,
+            "state": null,
+            "state_code": null,
+            "city": "Rende",
+            "geonames_city": {
+              "id": 2523623,
+              "city": "Rende",
+              "geonames_admin1": {
+                "name": "Calabria",
+                "id": 2525468,
+                "ascii_name": "Calabria",
+                "code": "IT.03"
+              },
+              "geonames_admin2": {
+                "name": "Province of Cosenza",
+                "id": 2524906,
+                "ascii_name": "Province of Cosenza",
+                "code": "IT.03.CS"
+              },
+              "license": {
+                "attribution": "Data from geonames.org under a CC-BY 3.0 license",
+                "license": "http://creativecommons.org/licenses/by/3.0/"
+              },
+              "nuts_level1": {
+                "name": null,
+                "code": null
+              },
+              "nuts_level2": {
+                "name": null,
+                "code": null
+              },
+              "nuts_level3": {
+                "name": null,
+                "code": null
+              }
+            },
+            "postcode": null,
+            "primary": false,
+            "line": null,
+            "country_geonames_id": 3175395
+          }
+        ],
+        "links": [
+          "http://www.unical.it/portale/"
+        ],
+        "aliases": [],
+        "acronyms": [
+          "UNICAL"
+        ],
+        "status": "active",
+        "wikipedia_url": "http://en.wikipedia.org/wiki/University_of_Calabria",
+        "labels": [
+          {
+            "label": "Università della Calabria",
+            "iso639": "it"
+          },
+          {
+            "label": "Universität Kalabrien",
+            "iso639": "de"
+          },
+          {
+            "label": "Université de la calabre",
+            "iso639": "fr"
+          }
+        ],
+        "country": {
+          "country_name": "Italy",
+          "country_code": "IT"
+        },
+        "external_ids": {
+          "ISNI": {
+            "preferred": null,
+            "all": [
+              "0000 0004 1937 0319"
+            ]
+          },
+          "FundRef": {
+            "preferred": null,
+            "all": [
+              "501100007069"
+            ]
+          },
+          "OrgRef": {
+            "preferred": null,
+            "all": [
+              "1810404"
+            ]
+          },
+          "Wikidata": {
+            "preferred": null,
+            "all": [
+              "Q1752540"
+            ]
+          },
+          "GRID": {
+            "preferred": "grid.7778.f",
+            "all": "grid.7778.f"
+          }
+        }
+      }
+    },
+    {
+      "substring": "university of",
+      "score": 0.74,
+      "matching_type": "PHRASE",
+      "chosen": false,
+      "organization": {
+        "id": "https://ror.org/03efxn362",
+        "name": "Universidad Veracruzana",
+        "email_address": null,
+        "ip_addresses": [],
+        "established": 1944,
+        "types": [
+          "Education"
+        ],
+        "relationships": [],
+        "addresses": [
+          {
+            "lat": 19.562135,
+            "lng": -96.930356,
+            "state": null,
+            "state_code": null,
+            "city": "Xalapa",
+            "geonames_city": {
+              "id": 3526617,
+              "city": "Xalapa de Enríquez",
+              "geonames_admin1": {
+                "name": "Veracruz",
+                "id": 3514780,
+                "ascii_name": "Veracruz",
+                "code": "MX.30"
+              },
+              "geonames_admin2": {
+                "name": "Xalapa",
+                "id": 8583732,
+                "ascii_name": "Xalapa",
+                "code": "MX.30.087"
+              },
+              "license": {
+                "attribution": "Data from geonames.org under a CC-BY 3.0 license",
+                "license": "http://creativecommons.org/licenses/by/3.0/"
+              },
+              "nuts_level1": {
+                "name": null,
+                "code": null
+              },
+              "nuts_level2": {
+                "name": null,
+                "code": null
+              },
+              "nuts_level3": {
+                "name": null,
+                "code": null
+              }
+            },
+            "postcode": null,
+            "primary": false,
+            "line": null,
+            "country_geonames_id": 3996063
+          }
+        ],
+        "links": [
+          "http://www.uv.mx/en/"
+        ],
+        "aliases": [],
+        "acronyms": [],
+        "status": "active",
+        "wikipedia_url": "http://en.wikipedia.org/wiki/Universidad_Veracruzana",
+        "labels": [
+          {
+            "label": "University of Veracruz",
+            "iso639": "en"
+          }
+        ],
+        "country": {
+          "country_name": "Mexico",
+          "country_code": "MX"
+        },
+        "external_ids": {
+          "ISNI": {
+            "preferred": null,
+            "all": [
+              "0000 0004 1766 9560"
+            ]
+          },
+          "FundRef": {
+            "preferred": null,
+            "all": [
+              "501100004848"
+            ]
+          },
+          "OrgRef": {
+            "preferred": null,
+            "all": [
+              "10183189"
+            ]
+          },
+          "Wikidata": {
+            "preferred": null,
+            "all": [
+              "Q1808814"
+            ]
+          },
+          "GRID": {
+            "preferred": "grid.42707.36",
+            "all": "grid.42707.36"
+          }
+        }
+      }
+    },
+    {
+      "substring": "university of",
+      "score": 0.72,
+      "matching_type": "PHRASE",
+      "chosen": false,
+      "organization": {
+        "id": "https://ror.org/055k3dh55",
+        "name": "Universitatea Din Petrosani",
+        "email_address": null,
+        "ip_addresses": [],
+        "established": 1948,
+        "types": [
+          "Education"
+        ],
+        "relationships": [],
+        "addresses": [
+          {
+            "lat": 45.420181,
+            "lng": 23.381269,
+            "state": null,
+            "state_code": null,
+            "city": "Petroşani",
+            "geonames_city": {
+              "id": 670938,
+              "city": "Petroşani",
+              "geonames_admin1": {
+                "name": "Hunedoara",
+                "id": 675917,
+                "ascii_name": "Hunedoara",
+                "code": "RO.21"
+              },
+              "geonames_admin2": {
+                "name": "Municipiul Petroşani",
+                "id": 8334898,
+                "ascii_name": "Municipiul Petrosani",
+                "code": "RO.21.86990"
+              },
+              "license": {
+                "attribution": "Data from geonames.org under a CC-BY 3.0 license",
+                "license": "http://creativecommons.org/licenses/by/3.0/"
+              },
+              "nuts_level1": {
+                "name": "MACROREGIUNEA PATRU",
+                "code": "RO4"
+              },
+              "nuts_level2": {
+                "name": "Vest",
+                "code": "RO42"
+              },
+              "nuts_level3": {
+                "name": "Hunedoara",
+                "code": "RO423"
+              }
+            },
+            "postcode": null,
+            "primary": false,
+            "line": null,
+            "country_geonames_id": 798549
+          }
+        ],
+        "links": [
+          "http://www.upet.ro/eng/"
+        ],
+        "aliases": [],
+        "acronyms": [],
+        "status": "active",
+        "wikipedia_url": "http://en.wikipedia.org/wiki/University_of_Petro%C8%99ani",
+        "labels": [
+          {
+            "label": "University of Petroșani",
+            "iso639": "en"
+          }
+        ],
+        "country": {
+          "country_name": "Romania",
+          "country_code": "RO"
+        },
+        "external_ids": {
+          "ISNI": {
+            "preferred": null,
+            "all": [
+              "0000 0001 1015 2057"
+            ]
+          },
+          "Wikidata": {
+            "preferred": null,
+            "all": [
+              "Q23023833"
+            ]
+          },
+          "GRID": {
+            "preferred": "grid.31082.38",
+            "all": "grid.31082.38"
+          }
+        }
+      }
+    },
+    {
+      "substring": "university of",
+      "score": 0.7,
+      "matching_type": "PHRASE",
+      "chosen": false,
+      "organization": {
+        "id": "https://ror.org/00gtcbp88",
+        "name": "Universidade de Pernambuco",
+        "email_address": null,
+        "ip_addresses": [],
+        "established": 1966,
+        "types": [
+          "Education"
+        ],
+        "relationships": [
+          {
+            "label": "Hospital Universitário Oswaldo Cruz",
+            "type": "Related",
+            "id": "https://ror.org/02b082946"
+          }
+        ],
+        "addresses": [
+          {
+            "lat": -8.043869,
+            "lng": -34.886031,
+            "state": null,
+            "state_code": null,
+            "city": "Recife",
+            "geonames_city": {
+              "id": 3390760,
+              "city": "Recife",
+              "geonames_admin1": {
+                "name": "Pernambuco",
+                "id": 3392268,
+                "ascii_name": "Pernambuco",
+                "code": "BR.30"
+              },
+              "geonames_admin2": {
+                "name": "Recife",
+                "id": 6320570,
+                "ascii_name": "Recife",
+                "code": "BR.30.2611606"
+              },
+              "license": {
+                "attribution": "Data from geonames.org under a CC-BY 3.0 license",
+                "license": "http://creativecommons.org/licenses/by/3.0/"
+              },
+              "nuts_level1": {
+                "name": null,
+                "code": null
+              },
+              "nuts_level2": {
+                "name": null,
+                "code": null
+              },
+              "nuts_level3": {
+                "name": null,
+                "code": null
+              }
+            },
+            "postcode": null,
+            "primary": false,
+            "line": null,
+            "country_geonames_id": 3469034
+          }
+        ],
+        "links": [
+          "http://www.upe.br/"
+        ],
+        "aliases": [],
+        "acronyms": [
+          "UPE"
+        ],
+        "status": "active",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/University_of_Pernambuco",
+        "labels": [
+          {
+            "label": "University of Pernambuco",
+            "iso639": "en"
+          }
+        ],
+        "country": {
+          "country_name": "Brazil",
+          "country_code": "BR"
+        },
+        "external_ids": {
+          "ISNI": {
+            "preferred": null,
+            "all": [
+              "0000 0000 9011 5442"
+            ]
+          },
+          "FundRef": {
+            "preferred": null,
+            "all": [
+              "501100003067",
+              "501100008133"
+            ]
+          },
+          "OrgRef": {
+            "preferred": null,
+            "all": [
+              "6274454"
+            ]
+          },
+          "Wikidata": {
+            "preferred": null,
+            "all": [
+              "Q7894399"
+            ]
+          },
+          "GRID": {
+            "preferred": "grid.26141.30",
+            "all": "grid.26141.30"
+          }
+        }
+      }
+    },
+    {
+      "substring": "university of",
+      "score": 0.7,
+      "matching_type": "PHRASE",
+      "chosen": false,
+      "organization": {
+        "id": "https://ror.org/058cjye32",
+        "name": "Universidad de Guanajuato",
+        "email_address": null,
+        "ip_addresses": [],
+        "established": 1732,
+        "types": [
+          "Education"
+        ],
+        "relationships": [],
+        "addresses": [
+          {
+            "lat": 21.017281,
+            "lng": -101.2530841,
+            "state": null,
+            "state_code": null,
+            "city": "Guanajuato City",
+            "geonames_city": {
+              "id": 4005270,
+              "city": "Guanajuato",
+              "geonames_admin1": {
+                "name": "Guanajuato",
+                "id": 4005267,
+                "ascii_name": "Guanajuato",
+                "code": "MX.11"
+              },
+              "geonames_admin2": {
+                "name": "Guanajuato",
+                "id": 8581909,
+                "ascii_name": "Guanajuato",
+                "code": "MX.11.015"
+              },
+              "license": {
+                "attribution": "Data from geonames.org under a CC-BY 3.0 license",
+                "license": "http://creativecommons.org/licenses/by/3.0/"
+              },
+              "nuts_level1": {
+                "name": null,
+                "code": null
+              },
+              "nuts_level2": {
+                "name": null,
+                "code": null
+              },
+              "nuts_level3": {
+                "name": null,
+                "code": null
+              }
+            },
+            "postcode": null,
+            "primary": false,
+            "line": null,
+            "country_geonames_id": 3996063
+          }
+        ],
+        "links": [
+          "http://www.ugto.mx/"
+        ],
+        "aliases": [],
+        "acronyms": [],
+        "status": "active",
+        "wikipedia_url": "http://en.wikipedia.org/wiki/Universidad_de_Guanajuato",
+        "labels": [
+          {
+            "label": "University of Guanajuato",
+            "iso639": "en"
+          }
+        ],
+        "country": {
+          "country_name": "Mexico",
+          "country_code": "MX"
+        },
+        "external_ids": {
+          "ISNI": {
+            "preferred": null,
+            "all": [
+              "0000 0001 0561 8457"
+            ]
+          },
+          "FundRef": {
+            "preferred": null,
+            "all": [
+              "501100006054"
+            ]
+          },
+          "OrgRef": {
+            "preferred": "1611721",
+            "all": [
+              "1611721",
+              "47000417"
+            ]
+          },
+          "Wikidata": {
+            "preferred": null,
+            "all": [
+              "Q641889"
+            ]
+          },
+          "GRID": {
+            "preferred": "grid.412891.7",
+            "all": "grid.412891.7"
+          }
+        }
+      }
+    },
+    {
+      "substring": "university of",
+      "score": 0.65,
+      "matching_type": "FUZZY",
+      "chosen": false,
+      "organization": {
+        "id": "https://ror.org/01yjpt684",
+        "name": "Pontifical Urban University",
+        "email_address": null,
+        "ip_addresses": [],
+        "established": 1627,
+        "types": [
+          "Education"
+        ],
+        "relationships": [],
+        "addresses": [
+          {
+            "lat": 41.899923,
+            "lng": 12.458225,
+            "state": null,
+            "state_code": null,
+            "city": "Rome",
+            "geonames_city": {
+              "id": 3169070,
+              "city": "Rome",
+              "geonames_admin1": {
+                "name": "Latium",
+                "id": 3174976,
+                "ascii_name": "Latium",
+                "code": "IT.07"
+              },
+              "geonames_admin2": {
+                "name": "Città metropolitana di Roma Capitale",
+                "id": 3169069,
+                "ascii_name": "Citta metropolitana di Roma Capitale",
+                "code": "IT.07.RM"
+              },
+              "license": {
+                "attribution": "Data from geonames.org under a CC-BY 3.0 license",
+                "license": "http://creativecommons.org/licenses/by/3.0/"
+              },
+              "nuts_level1": {
+                "name": "CENTRO (IT)",
+                "code": "ITI"
+              },
+              "nuts_level2": {
+                "name": "Lazio",
+                "code": "ITI4"
+              },
+              "nuts_level3": {
+                "name": "Roma",
+                "code": "ITI43"
+              }
+            },
+            "postcode": null,
+            "primary": false,
+            "line": null,
+            "country_geonames_id": 3175395
+          }
+        ],
+        "links": [
+          "http://www.urbaniana.edu/"
+        ],
+        "aliases": [
+          "Urbaniana"
+        ],
+        "acronyms": [],
+        "status": "active",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Pontifical_Urban_University",
+        "labels": [
+          {
+            "label": "Päpstliche Universität Urbaniana",
+            "iso639": "de"
+          },
+          {
+            "label": "Université pontificale urbaniana",
+            "iso639": "fr"
+          },
+          {
+            "label": "Pontificia Università Urbaniana",
+            "iso639": "it"
+          }
+        ],
+        "country": {
+          "country_name": "Italy",
+          "country_code": "IT"
+        },
+        "external_ids": {
+          "ISNI": {
+            "preferred": null,
+            "all": [
+              "0000 0004 1797 7432"
+            ]
+          },
+          "OrgRef": {
+            "preferred": null,
+            "all": [
+              "7922067"
+            ]
+          },
+          "Wikidata": {
+            "preferred": null,
+            "all": [
+              "Q2032536"
+            ]
+          },
+          "GRID": {
+            "preferred": "grid.449323.b",
+            "all": "grid.449323.b"
+          }
+        }
+      }
+    }
+  ]
+}

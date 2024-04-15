@@ -1,11 +1,11 @@
 {**
- * templates/ror/rorContributor.tpl
+ * templates/contributor.tpl
  *
  * @copyright (c) 2021+ TIB Hannover
  * @copyright (c) 2021+ Gazi Yücel
  * @license Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
  *
- * Ror contributor lookup
+ * Ror lookup for contributor
  *}
 
 <link rel="stylesheet" href="{$stylePath}" type="text/css"/>
@@ -80,8 +80,15 @@
         },
         methods: {
             selectOrganization(index) {
-                this.$parent._props.fields[this.getIndex('affiliation')].value.en = this.organizations[index].name;
-                this.$parent._props.fields[this.getIndex('rorId')].value = this.organizations[index].id;
+                let fields = this.$parent._props.fields;
+                fields[this.getIndex('rorId')].value = this.organizations[index].id;
+                let values = fields[this.getIndex('affiliation')].value;
+                Object.keys(values).forEach(key => {
+                    values[key] = this.organizations[index].name;
+                    if (typeof this.organizations[index].labels[key] !== 'undefined') {
+                        values[key] = this.organizations[index].labels[key];
+                    }
+                });
             },
             clearSearchPhrase() {
                 this.organizations = [];
@@ -96,26 +103,28 @@
                 }
             },
             apiLookup() {
-                let self = this;
-                $.ajax({
-                    url: 'https://api.ror.org/organizations',
-                    dataType: 'json',
-                    cache: true,
-                    data: {
-                        affiliation: self.searchPhrase + '*'
-                    },
-                    success(response) {
-                        self.organizations = [];
-                        $.map(response.items, function (item) {
+                fetch('https://api.ror.org/organizations?affiliation=' + this.searchPhrase + '*')
+                    .then(response => response.json())
+                    .then(data => {
+                        this.organizations = [];
+                        let items = data.items;
+                        items.forEach((item) => {
+                            let labels = { /**/};
+                            for (let i = 0; i < item.organization.labels.length; i++) {
+                                labels[item.organization.labels[i].iso639]
+                                    = item.organization.labels[i].label
+                            }
                             let row = {
                                 id: item.organization.id,
-                                name: item.organization.name
+                                name: item.organization.name,
+                                labels: labels
                             };
-                            self.organizations.push(row);
+
+                            this.organizations.push(row);
                         });
-                    }
-                });
-            },
+                    })
+                    .catch(error => console.log(error));
+            }
         },
         watch: {
             searchPhrase() {
@@ -126,9 +135,6 @@
         },
         render: function (h) {
             return rorPluginTemplateCompiled.render.call(this, h);
-        },
-        created() {
-            // console.log('component ror-field-text-lookup created');
         }
     });
 </script>

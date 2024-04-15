@@ -1,23 +1,23 @@
 <?php
 /**
- * @file classes/Ror/RorArticleView.php
+ * @file classes/ArticleView.php
  *
  * @copyright (c) 2021+ TIB Hannover
  * @copyright (c) 2021+ Gazi Yücel
  * @license Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
  *
- * @class RorArticleView
- * @brief Ror Article View
+ * @class ArticleView
+ * @brief Article View
  */
 
-namespace APP\plugins\generic\ror\classes\Ror;
+namespace APP\plugins\generic\ror\classes;
 
 use APP\plugins\generic\ror\RorPlugin;
 use APP\template\TemplateManager;
 use Exception;
 use PKP\core\Core;
 
-class RorArticleView
+class ArticleView
 {
     /** @var RorPlugin */
     private RorPlugin $plugin;

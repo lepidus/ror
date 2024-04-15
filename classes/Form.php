@@ -1,22 +1,22 @@
 <?php
 /**
- * @file classes/Ror/RorForm.php
+ * @file classes/Form.php
  *
  * @copyright (c) 2021+ TIB Hannover
  * @copyright (c) 2021+ Gazi Yücel
  * @license Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
  *
- * @class RorForm
- * @brief Ror Form
+ * @class Form
+ * @brief Form
  */
 
-namespace APP\plugins\generic\ror\classes\Ror;
+namespace APP\plugins\generic\ror\classes;
 
 use PKP\components\forms\FieldText;
 use PKP\components\forms\publication\ContributorForm;
 use PKP\plugins\Hook;
 
-class RorForm
+class Form
 {
     /**
      * Add extra form fields to Contributor form.
@@ -30,12 +30,12 @@ class RorForm
         if (!$form instanceof ContributorForm)
             return Hook::CONTINUE;
 
-        $form->addField(new FieldText(RorConstants::$idName, [
+        $form->addField(new FieldText(Constants::$idName, [
             'label' => __('plugins.generic.ror.input.label'),
             'tooltip' => __('plugins.generic.ror.input.tooltip'),
         ]), [FIELD_POSITION_AFTER, 'affiliation']);
 
-        $form->addField(new RorFieldTextLookup(RorConstants::$idName . '_Lookup', [
+        $form->addField(new FieldTextLookup(Constants::$idName . '_Lookup', [
             'label' => __('plugins.generic.ror.input.lookup.label'),
             'tooltip' => __('plugins.generic.ror.input.lookup.tooltip'),
         ]), [FIELD_POSITION_BEFORE, 'affiliation']);

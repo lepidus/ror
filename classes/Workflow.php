@@ -1,22 +1,22 @@
 <?php
 /**
- * @file classes/Workflow/WorkflowTab.php
+ * @file classes/Workflow.php
  *
  * @copyright (c) 2021+ TIB Hannover
  * @copyright (c) 2021+ Gazi Yücel
  * @license Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
  *
- * @class WorkflowTab
- * @brief Workflow Publication Tab
+ * @class Workflow
+ * @brief Workflow Publication Contributor
  */
 
-namespace APP\plugins\generic\ror\classes\Ror;
+namespace APP\plugins\generic\ror\classes;
 
 use APP\core\Application;
 use APP\plugins\generic\ror\RorPlugin;
 use APP\template\TemplateManager;
 
-class RorWorkflow
+class Workflow
 {
     /** @var RorPlugin */
     public RorPlugin $plugin;
@@ -41,9 +41,9 @@ class RorWorkflow
         $request = Application::get()->getRequest();
 
         $templateMgr->assign([
-            'stylePath' => $request->getBaseUrl() . '/' . $this->plugin->getPluginPath() . '/' . RorConstants::$stylePath
+            'stylePath' => $request->getBaseUrl() . '/' . $this->plugin->getPluginPath() . '/' . Constants::$stylePath
         ]);
 
-        $templateMgr->display($this->plugin->getTemplateResource(RorConstants::$templateContributor));
+        $templateMgr->display($this->plugin->getTemplateResource(Constants::$templateContributor));
     }
 }

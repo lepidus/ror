@@ -1,18 +1,18 @@
 <?php
 /**
- * @file classes/Ror/RorSchema.php
+ * @file classes/Schema.php
  *
  * @copyright (c) 2021+ TIB Hannover
  * @copyright (c) 2021+ Gazi Yücel
  * @license Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
  *
- * @class RorSchema
- * @brief Ror Schema
+ * @class Schema
+ * @brief Schema
  */
 
-namespace APP\plugins\generic\ror\classes\Ror;
+namespace APP\plugins\generic\ror\classes;
 
-class RorSchema
+class Schema
 {
     /**
      * This method adds properties to the schema of a publication.
@@ -25,7 +25,7 @@ class RorSchema
     {
         $schema = &$args[0];
 
-        $schema->properties->{RorConstants::$idName} = (object)[
+        $schema->properties->{Constants::$idName} = (object)[
             'type' => 'string',
             'multilingual' => false,
             'apiSummary' => true,

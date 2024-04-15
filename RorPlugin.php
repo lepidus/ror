@@ -13,10 +13,10 @@
 
 namespace APP\plugins\generic\ror;
 
-use APP\plugins\generic\ror\classes\Ror\RorArticleView;
-use APP\plugins\generic\ror\classes\Ror\RorForm;
-use APP\plugins\generic\ror\classes\Ror\RorSchema;
-use APP\plugins\generic\ror\classes\Ror\RorWorkflow;
+use APP\plugins\generic\ror\classes\ArticleView;
+use APP\plugins\generic\ror\classes\Form;
+use APP\plugins\generic\ror\classes\Schema;
+use APP\plugins\generic\ror\classes\Workflow;
 use PKP\plugins\GenericPlugin;
 use PKP\plugins\Hook;
 
@@ -31,14 +31,14 @@ class RorPlugin extends GenericPlugin
 
             if ($this->getEnabled()) {
                 /* ROR */
-                $rorSchema = new RorSchema();
-                $rorForm = new RorForm();
-                $rorWorkflow = new RorWorkflow($this);
-                $rorArticleView = new RorArticleView($this);
-                Hook::add('Schema::get::author', [$rorSchema, 'addToAuthor']);
-                Hook::add('Form::config::before', [$rorForm, 'addFields']);
-                Hook::add('Template::Workflow::Publication', [$rorWorkflow, 'execute']);
-                Hook::add('ArticleHandler::view', [$rorArticleView, 'execute']);
+                $schema = new Schema();
+                $form = new Form();
+                $workflow = new Workflow($this);
+                $articleView = new ArticleView($this);
+                Hook::add('Schema::get::author', [$schema, 'addToAuthor']);
+                Hook::add('Form::config::before', [$form, 'addFields']);
+                Hook::add('Template::Workflow::Publication', [$workflow, 'execute']);
+                Hook::add('ArticleHandler::view', [$articleView, 'execute']);
             }
 
             return true;
