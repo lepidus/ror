@@ -19,31 +19,31 @@ class Constants
      *
      * @var string
      */
-    public static string $idName = 'rorId';
+    public const idName = 'rorId';
 
     /**
      * Key used in article_details.tpl template file.
      *
      * @var string
      */
-    public static string $iconNameInTemplate = 'rorIdIcon';
+    public const iconNameInTemplate = 'rorIdIcon';
 
     /**
      * Path to the Ror logo.
      *
      * @var string
      */
-    public static string $iconPath = 'assets/images/ror-org-logo-icon.svg';
+    public const iconPath = 'assets/images/ror-org-logo-icon.svg';
 
     /**
      * Path to the Ror stylesheet
      * @var string
      */
-    public static string $stylePath = 'assets/css/style.css';
+    public const stylePath = 'assets/css/style.css';
 
     /**
      * Path to the Ror javascript script
      * @var string
      */
-    public static string $templateContributor = 'contributor.tpl';
+    public const templateContributor = 'contributor.tpl';
 }

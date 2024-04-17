@@ -30,12 +30,12 @@ class Form
         if (!$form instanceof ContributorForm)
             return Hook::CONTINUE;
 
-        $form->addField(new FieldText(Constants::$idName, [
+        $form->addField(new FieldText(Constants::idName, [
             'label' => __('plugins.generic.ror.input.label'),
             'tooltip' => __('plugins.generic.ror.input.tooltip'),
         ]), [FIELD_POSITION_AFTER, 'affiliation']);
 
-        $form->addField(new FieldTextLookup(Constants::$idName . '_Lookup', [
+        $form->addField(new FieldTextLookup(Constants::idName . '_Lookup', [
             'label' => __('plugins.generic.ror.input.lookup.label'),
             'tooltip' => __('plugins.generic.ror.input.lookup.tooltip'),
         ]), [FIELD_POSITION_BEFORE, 'affiliation']);

@@ -25,7 +25,7 @@ class Schema
     {
         $schema = &$args[0];
 
-        $schema->properties->{Constants::$idName} = (object)[
+        $schema->properties->{Constants::idName} = (object)[
             'type' => 'string',
             'multilingual' => false,
             'apiSummary' => true,

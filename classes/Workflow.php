@@ -41,9 +41,9 @@ class Workflow
         $request = Application::get()->getRequest();
 
         $templateMgr->assign([
-            'stylePath' => $request->getBaseUrl() . '/' . $this->plugin->getPluginPath() . '/' . Constants::$stylePath
+            'stylePath' => $request->getBaseUrl() . '/' . $this->plugin->getPluginPath() . '/' . Constants::stylePath
         ]);
 
-        $templateMgr->display($this->plugin->getTemplateResource(Constants::$templateContributor));
+        $templateMgr->display($this->plugin->getTemplateResource(Constants::templateContributor));
     }
 }
