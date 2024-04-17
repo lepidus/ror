@@ -14,36 +14,18 @@ namespace APP\plugins\generic\ror\classes;
 
 class Constants
 {
-    /**
-     * Name of ROR id used in database, forms
-     *
-     * @var string
-     */
+    /** @var string Name of ROR id used in database, forms */
     public const idName = 'rorId';
 
-    /**
-     * Key used in article_details.tpl template file.
-     *
-     * @var string
-     */
+    /** @var string Key used in article_details.tpl template file. */
     public const iconNameInTemplate = 'rorIdIcon';
 
-    /**
-     * Path to the Ror logo.
-     *
-     * @var string
-     */
+    /** @var string Path to the Ror logo. */
     public const iconPath = 'assets/images/ror-org-logo-icon.svg';
 
-    /**
-     * Path to the Ror stylesheet
-     * @var string
-     */
+    /** @var string Path to the Ror stylesheet. */
     public const stylePath = 'assets/css/style.css';
 
-    /**
-     * Path to the Ror javascript script
-     * @var string
-     */
+    /** @var string Path to the Ror javascript script. */
     public const templateContributor = 'contributor.tpl';
 }
