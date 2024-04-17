@@ -55,7 +55,8 @@
         extends: pkp.Vue.component('field-text'),
         data() {
             return {
-                organizations: [], // [ { id: id1, name: name1 }, ... ]
+                // [ { id: id1, name: name1, labels: [ 'en': 'label1', ... }, ... ]
+                organizations: [],
                 searchPhrase: "",
                 minimumSearchPhraseLength: 3,
             }
