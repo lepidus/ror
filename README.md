@@ -66,18 +66,25 @@ ROR Plugin is shipped with the OJS Plugin gallery up from OJS 3.2. For Installat
 </span>
 ```
 
+
+
 # Development
+- https://github.com/withanage/
+## Contributions
+- https://github.com/GaziYucel/
+- https://github.com/YvesLepidus
+- https://github.com/JhonathanLepidus
+- https://github.com/mhvezina
+
+
+
+# Contribution
 
 - Fork the repository
 - Make your changes
 - Open a PR with your changes
 
-# Contribute
 
-All help is welcome: asking questions, providing documentation, testing, or even development.
-
-Please note that this project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md).
-By participating in this project you agree to abide by its terms.
 
 # License
 
