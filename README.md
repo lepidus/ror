@@ -17,7 +17,6 @@ ROR ID is integrated in the OJS reader interface up from OJS 3.3.
 ROR Plugin is shipped with the OJS Plugin gallery up from OJS 3.2. For Installation of OJS 3.2 reader interface support see [installation](#Installation).
 
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
 
 # Features
 
@@ -66,25 +65,20 @@ ROR Plugin is shipped with the OJS Plugin gallery up from OJS 3.2. For Installat
 </span>
 ```
 
-
-
 # Development
 - https://github.com/withanage/
+
 ## Contributions
 - https://github.com/GaziYucel/
 - https://github.com/YvesLepidus
 - https://github.com/JhonathanLepidus
 - https://github.com/mhvezina
 
-
-
-# Contribution
+# Contribute
 
 - Fork the repository
 - Make your changes
 - Open a PR with your changes
-
-
 
 # License
 
