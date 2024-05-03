@@ -62,12 +62,24 @@ Licensed under GPLv3. See [LICENSE](LICENSE) for details.
 ### Release 3.0
 
 * Multilingual organization support
+# Development
+- https://github.com/withanage/
 
-##  Development
+## Contributions
+- https://github.com/GaziYucel/
+- https://github.com/YvesLepidus
+- https://github.com/JhonathanLepidus
+- https://github.com/mhvezina
 
-* [Dulip Withanage](https://www.github.com/withanage)
+# Contribute
 
+- Fork the repository
+- Make your changes
+- Open a PR with your changes
 
+# License
+
+This project is published under GNU General Public License, Version 3.
 
 
 
