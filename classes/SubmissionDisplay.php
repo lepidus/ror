@@ -49,7 +49,7 @@ class SubmissionDisplay
 
         if ($applicationName === 'ojs2') return false;
 
-        if (!in_array($template, ['frontend/pages/book.tpl'])) {
+        if (!in_array($template, ['frontend/pages/book.tpl', 'frontend/pages/preprint.tpl'])) {
             return false;
         }
 
@@ -77,7 +77,9 @@ class SubmissionDisplay
      */
     function submissionDisplayFilter($output, $templateMgr) {
         $applicationName = Application::get()->getName();
-        $authorsPattern = '/<div class="item authors">([\s\S]*?)<\/div>\s*(?=\s*<div class="item)/';
+        $authorsPattern = $applicationName === 'ops'
+            ? '/<section class="item authors">([\s\S]*?)<\/section>/'
+            : '/<div class="item authors">([\s\S]*?)<\/div>\s*(?=\s*<div class="item)/';
         if (preg_match($authorsPattern, $output, $matches, PREG_OFFSET_CAPTURE)) {
             $match = $matches[1][0];
             $offset = $matches[1][1];
