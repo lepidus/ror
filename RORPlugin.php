@@ -155,7 +155,7 @@ class RORPlugin extends GenericPlugin {
 			return false;
 		}
 
-		if (!in_array($template, ['frontend/pages/preprint.tpl'])) {
+		if (!in_array($template, ['frontend/pages/preprint.tpl', 'frontend/pages/book.tpl'])) {
 			return false;
 		}
 
@@ -173,12 +173,15 @@ class RORPlugin extends GenericPlugin {
 
 	function submissionDisplayFilter($output, $templateMgr) {
 		$applicationName = Application::get()->getName();
-		$authorsPattern = '/<section class="item authors">([\s\S]*?)<\/section>/';
+		$authorsPattern = $applicationName === 'ops'
+			? '/<section class="item authors">([\s\S]*?)<\/section>/'
+			: '/<div class="item authors">([\s\S]*?)<\/div>\s*(?=\s*<div class="item)/';
 		if (preg_match($authorsPattern, $output, $matches, PREG_OFFSET_CAPTURE)) {
 			$match = $matches[1][0];
 			$offset = $matches[1][1];
 			$newOutput = substr($output, 0, $offset);
 			$newOutput .= $templateMgr->fetch($this->getTemplateResource($applicationName . '_submission_authors.tpl'));
+			error_log(substr($output, $offset + strlen($match)));
 			$newOutput .= substr($output, $offset + strlen($match));
 			$output = $newOutput;
 			$templateMgr->unregisterFilter('output', array($this, 'submissionDisplayFilter'));
