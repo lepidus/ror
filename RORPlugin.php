@@ -181,7 +181,6 @@ class RORPlugin extends GenericPlugin {
 			$offset = $matches[1][1];
 			$newOutput = substr($output, 0, $offset);
 			$newOutput .= $templateMgr->fetch($this->getTemplateResource($applicationName . '_submission_authors.tpl'));
-			error_log(substr($output, $offset + strlen($match)));
 			$newOutput .= substr($output, $offset + strlen($match));
 			$output = $newOutput;
 			$templateMgr->unregisterFilter('output', array($this, 'submissionDisplayFilter'));
